@@ -994,3 +994,148 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 67ms (Views: 63.8ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for ::1 at 2018-05-24 11:01:20 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.6ms)
+
+
+  
+LoadError (cannot load such file -- roo):
+  
+app/views/static_pages/home.html.erb:10:in `_app_views_static_pages_home_html_erb__4217519376833529146_70154361447720'
+Started GET "/" for ::1 at 2018-05-24 11:02:38 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (file ../../spreadsheets/Idol Draft Master List 5-24.xlsx does not exist):
+     8:   <h3>
+     9:     <%=
+    10:         require 'roo'
+    11:         xlsx = Roo::Spreadsheet.open('../../spreadsheets/Idol Draft Master List 5-24.xlsx')
+    12:         xlsx = Roo::Excelx.new("../../spreadsheets/Idol Draft Master List 5-24.xlsx")
+    13:         xlsx.info
+    14:         # => Returns basic info about the spreadsheet file
+  
+app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb___996949149441829694_70312499022780'
+Started GET "/" for ::1 at 2018-05-24 11:03:40 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (file ../../assets/spreadsheets/Idol Draft Master List 5-24.xlsx does not exist):
+     8:   <h3>
+     9:     <%=
+    10:         require 'roo'
+    11:         xlsx = Roo::Spreadsheet.open('../../assets/spreadsheets/Idol Draft Master List 5-24.xlsx')
+    12:         xlsx = Roo::Excelx.new("../../spreadsheets/Idol Draft Master List 5-24.xlsx")
+    13:         xlsx.info
+    14:         # => Returns basic info about the spreadsheet file
+  
+app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb___996949149441829694_70312500022800'
+Started GET "/" for ::1 at 2018-05-24 11:06:25 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (file Idol Draft Master List 5-24.xlsx does not exist):
+     8:   <h3>
+     9:     <%=
+    10:         require 'roo'
+    11:         xlsx = Roo::Spreadsheet.open("Idol Draft Master List 5-24.xlsx")
+    12:         xlsx = Roo::Excelx.new("Idol Draft Master List 5-24.xlsx")
+    13:         xlsx.info
+    14:         # => Returns basic info about the spreadsheet file
+  
+app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb___996949149441829694_70312499204420'
+Started GET "/" for ::1 at 2018-05-24 11:11:12 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (file /Users/adhityavadivel/IdolDraft/Idol-Draft-Master-List-5-24.xlsx does not exist):
+     8:   <h3>
+     9:     <%=
+    10:         require 'roo'
+    11:         xlsx = Roo::Excelx.new(Rails.root.join("Idol-Draft-Master-List-5-24.xlsx"))
+    12:         xlsx.info
+    13:         # => Returns basic info about the spreadsheet file
+    14:     %>
+  
+app/views/static_pages/home.html.erb:11:in `new'
+app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb___996949149441829694_70312495866780'
+Started GET "/" for ::1 at 2018-05-24 11:12:14 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.2ms)
+
+
+  
+LoadError (cannot load such file -- roofie):
+  
+app/views/static_pages/home.html.erb:10:in `_app_views_static_pages_home_html_erb___996949149441829694_70312467473920'
+Started GET "/" for ::1 at 2018-05-24 11:12:22 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (file /Users/adhityavadivel/IdolDraft/Idol-Draft-Master-List-5-24.xlsx does not exist):
+     8:   <h3>
+     9:     <%=
+    10:         require 'roo'
+    11:         xlsx = Roo::Excelx.new(Rails.root.join("Idol-Draft-Master-List-5-24.xlsx"))
+    12:         xlsx.info
+    13:         # => Returns basic info about the spreadsheet file
+    14:     %>
+  
+app/views/static_pages/home.html.erb:11:in `new'
+app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb___996949149441829694_70312498956420'
+Started GET "/" for ::1 at 2018-05-24 11:17:27 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (222.5ms)
+  Rendered layouts/_shim.html.erb (1.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 2393ms (Views: 2390.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2018-05-24 11:20:28 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (153.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 185ms (Views: 182.7ms | ActiveRecord: 0.2ms)
+
+

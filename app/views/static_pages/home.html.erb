@@ -1,21 +1,19 @@
-<% if logged_in? %>
-    <div class="row">
-      <aside class="col-md-4">
-        <section class="user_info">
-          <%= render 'shared/user_info' %>
-        </section>
-        <section class="micropost_form">
-          <%= render 'shared/micropost_form' %>
-        </section>
-      </aside>
-    </div>
-<% else %>
 <div class="center jumbotron">
   <h1>IdolDraft</h1>
 
   <h2>
     The Korean Pop inspired multiplayer fantasy sports game.
   </h2>
+  
+  <h3>
+    <%=
+        require 'roo'
+        xlsx = Roo::Excelx.new(Rails.root.join("#{Rails.root}/app/assets/spreadsheets/Idol-Draft-Master-List-5-24.xlsx"))
+        xlsx.excelx_value(19,'C')  # should print G.Dragon
+
+    %>
+  </h3>
+  
 
   <img src="https://user-images.githubusercontent.com/13984734/39901010-9a8fd6d2-547a-11e8-96f6-00d593a38820.jpg" alt="Stock Photo" style="width:798px;height:451.5px;">
 
@@ -24,5 +22,3 @@
 
   <%= link_to "Quick Play", signup_path, class: "btn btn-lg btn-success" %>
   <%= link_to "Guide", '#', class: "btn btn-lg btn-success" %>
-
-<% end %>
