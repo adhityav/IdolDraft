@@ -994,3 +994,981 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 67ms (Views: 63.8ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for ::1 at 2018-05-24 11:01:20 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.6ms)
+
+
+  
+LoadError (cannot load such file -- roo):
+  
+app/views/static_pages/home.html.erb:10:in `_app_views_static_pages_home_html_erb__4217519376833529146_70154361447720'
+Started GET "/" for ::1 at 2018-05-24 11:02:38 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (file ../../spreadsheets/Idol Draft Master List 5-24.xlsx does not exist):
+     8:   <h3>
+     9:     <%=
+    10:         require 'roo'
+    11:         xlsx = Roo::Spreadsheet.open('../../spreadsheets/Idol Draft Master List 5-24.xlsx')
+    12:         xlsx = Roo::Excelx.new("../../spreadsheets/Idol Draft Master List 5-24.xlsx")
+    13:         xlsx.info
+    14:         # => Returns basic info about the spreadsheet file
+  
+app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb___996949149441829694_70312499022780'
+Started GET "/" for ::1 at 2018-05-24 11:03:40 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (file ../../assets/spreadsheets/Idol Draft Master List 5-24.xlsx does not exist):
+     8:   <h3>
+     9:     <%=
+    10:         require 'roo'
+    11:         xlsx = Roo::Spreadsheet.open('../../assets/spreadsheets/Idol Draft Master List 5-24.xlsx')
+    12:         xlsx = Roo::Excelx.new("../../spreadsheets/Idol Draft Master List 5-24.xlsx")
+    13:         xlsx.info
+    14:         # => Returns basic info about the spreadsheet file
+  
+app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb___996949149441829694_70312500022800'
+Started GET "/" for ::1 at 2018-05-24 11:06:25 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (file Idol Draft Master List 5-24.xlsx does not exist):
+     8:   <h3>
+     9:     <%=
+    10:         require 'roo'
+    11:         xlsx = Roo::Spreadsheet.open("Idol Draft Master List 5-24.xlsx")
+    12:         xlsx = Roo::Excelx.new("Idol Draft Master List 5-24.xlsx")
+    13:         xlsx.info
+    14:         # => Returns basic info about the spreadsheet file
+  
+app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb___996949149441829694_70312499204420'
+Started GET "/" for ::1 at 2018-05-24 11:11:12 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (file /Users/adhityavadivel/IdolDraft/Idol-Draft-Master-List-5-24.xlsx does not exist):
+     8:   <h3>
+     9:     <%=
+    10:         require 'roo'
+    11:         xlsx = Roo::Excelx.new(Rails.root.join("Idol-Draft-Master-List-5-24.xlsx"))
+    12:         xlsx.info
+    13:         # => Returns basic info about the spreadsheet file
+    14:     %>
+  
+app/views/static_pages/home.html.erb:11:in `new'
+app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb___996949149441829694_70312495866780'
+Started GET "/" for ::1 at 2018-05-24 11:12:14 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.2ms)
+
+
+  
+LoadError (cannot load such file -- roofie):
+  
+app/views/static_pages/home.html.erb:10:in `_app_views_static_pages_home_html_erb___996949149441829694_70312467473920'
+Started GET "/" for ::1 at 2018-05-24 11:12:22 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (file /Users/adhityavadivel/IdolDraft/Idol-Draft-Master-List-5-24.xlsx does not exist):
+     8:   <h3>
+     9:     <%=
+    10:         require 'roo'
+    11:         xlsx = Roo::Excelx.new(Rails.root.join("Idol-Draft-Master-List-5-24.xlsx"))
+    12:         xlsx.info
+    13:         # => Returns basic info about the spreadsheet file
+    14:     %>
+  
+app/views/static_pages/home.html.erb:11:in `new'
+app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb___996949149441829694_70312498956420'
+Started GET "/" for ::1 at 2018-05-24 11:17:27 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (222.5ms)
+  Rendered layouts/_shim.html.erb (1.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 2393ms (Views: 2390.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2018-05-24 11:20:28 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (153.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 185ms (Views: 182.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2018-05-24 11:48:58 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (200.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 326ms (Views: 319.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/list" for ::1 at 2018-05-24 11:49:03 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/list"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 11:49:53 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-24 11:51:01 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 42ms (Views: 39.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 11:51:45 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (169.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 202ms (Views: 200.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 11:52:50 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (191.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 226ms (Views: 224.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 11:52:51 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (189.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 238ms (Views: 235.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 11:52:57 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (191.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 229ms (Views: 227.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 11:53:13 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (186.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 220ms (Views: 218.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 11:53:31 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (189.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 233ms (Views: 231.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/expiration_check?_=1527121819640" for ::1 at 2018-05-24 12:04:00 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/sessions/expiration_check"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/sessions/expiration_check?_=1527121905167" for ::1 at 2018-05-24 12:05:26 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/sessions/expiration_check"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/user/home" for ::1 at 2018-05-24 12:31:55 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/user/home"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/user/list" for ::1 at 2018-05-24 12:31:58 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/user/list"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/" for ::1 at 2018-05-24 14:47:31 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 302ms (Views: 288.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 14:47:44 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (305.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 346ms (Views: 344.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/expiration_check?_=1527190500826" for ::1 at 2018-05-24 14:51:16 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/sessions/expiration_check"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 14:52:28 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each_row' for #<Roo::Excelx:0x00007f8818175c58>
+Did you mean?  each_cons):
+     7:       require 'roo'
+     8:       xlsx = Roo::Excelx.new(Rails.root.join("#{Rails.root}/app/assets/spreadsheets/Idol-Draft-Master-List-5-24.xlsx"))
+     9:       
+    10:       xlsx.each_row do |row|
+    11:         xlsx.excelx_value(row,'C')
+    12:       end
+    13:       
+  
+app/views/draft_list/list.html.erb:10:in `_app_views_draft_list_list_html_erb__2381496148669545230_70111248223400'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 14:53:00 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (14.5ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each_row' for #<Roo::Excelx:0x00007f881e00fd90>
+Did you mean?  each_cons):
+     7:       require 'roo'
+     8:       xlsx = Roo::Excelx.new(Rails.root.join("#{Rails.root}/app/assets/spreadsheets/Idol-Draft-Master-List-5-24.xlsx"))
+     9:       
+    10:       xlsx.each_row do |row|
+    11:         row.excelx_value('C')
+    12:       end
+    13:       
+  
+app/views/draft_list/list.html.erb:10:in `_app_views_draft_list_list_html_erb__2381496148669545230_70111297807420'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 14:55:08 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (18.4ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each_row' for #<Roo::Excelx:0x00007f881d66a0d8>
+Did you mean?  each_cons):
+     7:       require 'roo'
+     8:       xlsx = Roo::Excelx.new(Rails.root.join("#{Rails.root}/app/assets/spreadsheets/Idol-Draft-Master-List-5-24.xlsx"))
+     9:       
+    10:       xlsx.each_row do |row|
+    11:         #row.excelx_value('C')
+    12:       end
+    13:       
+  
+app/views/draft_list/list.html.erb:10:in `_app_views_draft_list_list_html_erb__2381496148669545230_70111298856440'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 14:59:37 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (207.8ms)
+Completed 500 Internal Server Error in 212ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `x' for #<#<Class:0x00007f881a77f778>:0x00007f88175ec170>):
+    10:       
+    11:       #row.excelx_value('C')
+    12:       
+    13:       for i in 1..x do
+    14:         puts i
+    15:       end
+    16:       
+  
+app/views/draft_list/list.html.erb:13:in `_app_views_draft_list_list_html_erb__2381496148669545230_70111242184040'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 14:59:51 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (243.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 285ms (Views: 282.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:00:26 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (210.8ms)
+Completed 500 Internal Server Error in 217ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `int' for #<#<Class:0x00007f881a77f778>:0x00007f881cb40c48>
+Did you mean?  in?):
+    10:       
+    11:       #row.excelx_value('C')
+    12:       
+    13:       int i = 2
+    14:       while i < 5 do
+    15:         puts i
+    16:       end
+  
+app/views/draft_list/list.html.erb:13:in `_app_views_draft_list_list_html_erb__2381496148669545230_70111286922560'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:01:01 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (202.2ms)
+Completed 500 Internal Server Error in 206ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `int' for #<#<Class:0x00007f881a77f778>:0x00007f881adb9828>
+Did you mean?  in?):
+    10:       
+    11:       #row.excelx_value('C')
+    12:       
+    13:       int i = 2
+    14:       while i < 5
+    15:         puts i
+    16:       end
+  
+app/views/draft_list/list.html.erb:13:in `_app_views_draft_list_list_html_erb__2381496148669545230_70111271453720'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:01:19 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:01:47 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:01:56 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 2051ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:17: syntax error, unexpected keyword_end
+      end
+      ^~~
+/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:22: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+          ^~~~~~
+/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:24: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/draft_list/list.html.erb:17: syntax error, unexpected keyword_end
+app/views/draft_list/list.html.erb:22: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/draft_list/list.html.erb:24: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:02:28 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (720.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 2155ms (Views: 2153.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:03:21 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (229.8ms)
+  Rendered layouts/_shim.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 512ms (Views: 509.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:03:32 -0700
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:03:32 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (180.2ms)
+  Rendered draft_list/list.html.erb within layouts/application (190.8ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 2894ms (Views: 2892.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_header.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.2ms) [cache miss]
+Completed 200 OK in 3408ms (Views: 3405.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:04:55 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (188.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 1221ms (Views: 1214.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendered draft_list/list.html.erb within layouts/application (247881.8ms)
+Started GET "/" for ::1 at 2018-05-24 15:05:43 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 240ms (Views: 225.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:05:52 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (289.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 324ms (Views: 322.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:06:03 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (207.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 247ms (Views: 244.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:06:26 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (200.3ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 236ms (Views: 234.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:06:42 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (189.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 224ms (Views: 222.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:07:00 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (185.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 217ms (Views: 215.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:07:14 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (206.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 261ms (Views: 259.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:08:18 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (283.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 348ms (Views: 346.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:11:45 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:15: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+..._buffer.append=( while i < 25 );@output_buffer.safe_append='
+...                              ^
+/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:18: syntax error, unexpected keyword_end
+...eze;@output_buffer.append=( end );
+...                            ^~~
+/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/draft_list/list.html.erb:15: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+app/views/draft_list/list.html.erb:18: syntax error, unexpected keyword_end
+app/views/draft_list/list.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/draft_list/list.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:15:45 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:15: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+..._buffer.append=( while i < 25 );@output_buffer.safe_append='
+...                              ^
+/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:18: syntax error, unexpected keyword_end
+...eze;@output_buffer.append=( end );
+...                            ^~~
+/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/draft_list/list.html.erb:15: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+app/views/draft_list/list.html.erb:18: syntax error, unexpected keyword_end
+app/views/draft_list/list.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/draft_list/list.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:16:13 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:15: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+  while i < 25 );@output_buffer.safe_append='
+               ^
+/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+    end );
+    ^~~
+/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/draft_list/list.html.erb:15: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+app/views/draft_list/list.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+app/views/draft_list/list.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/draft_list/list.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:17:23 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (168.7ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 199ms (Views: 197.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:17:45 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:14: syntax error, unexpected '>'
+...freeze;@output_buffer.append=(>xlsx.excelx_value(19, 'C'));@...
+...                              ^):
+  
+app/views/draft_list/list.html.erb:14: syntax error, unexpected '>'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:18:02 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/app/views/draft_list/list.html.erb:14: syntax error, unexpected '>'
+...reeze;@output_buffer.append=( >xlsx.excelx_value(19, 'C') );...
+...                              ^):
+  
+app/views/draft_list/list.html.erb:14: syntax error, unexpected '>'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:18:24 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (212.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 245ms (Views: 243.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:19:27 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (186.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 219ms (Views: 217.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:25:16 -0700
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/config/routes.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get    '/list'     to: 'draft_list#list'
+                     ^~):
+  
+config/routes.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:25:48 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (187.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 226ms (Views: 224.9ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:27:23 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (192.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 225ms (Views: 223.6ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:27:35 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (194.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 226ms (Views: 225.1ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:27:55 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (195.7ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 227ms (Views: 225.4ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:34:07 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (202.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 235ms (Views: 234.1ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:34:32 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (200.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 230ms (Views: 229.1ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:34:59 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (195.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 228ms (Views: 226.4ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:36:18 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (198.2ms)
+Completed 500 Internal Server Error in 202ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `nbsp' for #<#<Class:0x00007fda8ae1ac00>:0x00007fda8f093280>):
+     9: <% i = 19 %>
+    10: <% while i < 26 %>
+    11:   <p>
+    12:     <%= xlsx.excelx_value(i, 'B') &nbsp %>
+    13:     <%= xlsx.excelx_value(i, 'C') &nbsp %>
+    14:     <%= xlsx.excelx_value(i, 'D') &nbsp %>
+    15:   </p>
+  
+app/views/draft_list/list.html.erb:12:in `_app_views_draft_list_list_html_erb___3043398984992520921_70288339672720'
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:36:35 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (169.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 203ms (Views: 201.2ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:37:49 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (210.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 284ms (Views: 281.6ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-24 15:38:27 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (183.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 232ms (Views: 230.7ms)
+
+

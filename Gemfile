@@ -18,6 +18,8 @@ gem 'bootstrap-will_paginate', '0.0.10'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+# for parsing excel spreadsheets
+gem "roo", "~> 2.7.1"
 
 # Use Puma as the app server
 #gem 'puma', '~> 3.7'

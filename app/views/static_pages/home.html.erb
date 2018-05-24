@@ -1,15 +1,3 @@
-<% if logged_in? %>
-    <div class="row">
-      <aside class="col-md-4">
-        <section class="user_info">
-          <%= render 'shared/user_info' %>
-        </section>
-        <section class="micropost_form">
-          <%= render 'shared/micropost_form' %>
-        </section>
-      </aside>
-    </div>
-<% else %>
 <div class="center jumbotron">
   <h1>IdolDraft</h1>
 
@@ -24,5 +12,3 @@
 
   <%= link_to "Quick Play", signup_path, class: "btn btn-lg btn-success" %>
   <%= link_to "Guide", '#', class: "btn btn-lg btn-success" %>
-
-<% end %>
