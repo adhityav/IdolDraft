@@ -2372,3 +2372,93 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 76ms (Views: 72.2ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/user" for ::1 at 2018-05-25 12:53:11 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/user"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/" for ::1 at 2018-05-25 12:53:15 -0700
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 367ms (Views: 357.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-25 12:54:33 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (284.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 321ms (Views: 319.6ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-25 13:02:04 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (205.3ms)
+Completed 500 Internal Server Error in 212ms
+
+
+  
+ActionView::Template::Error (The asset "farmer.ico" is not present in the asset pipeline.):
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= csrf_meta_tags %>
+    6:   <%= favicon_link_tag asset_path('farmer.ico'), :rel => 'icon', :type => "image/x-icon" %>
+    7:   <%= stylesheet_link_tag    'application', media: 'all',
+    8:                              'data-turbolinks-track': 'reload' %>
+    9:   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___93037836847904361_70202041849380'
+Started GET "/draft_list/list" for ::1 at 2018-05-25 13:02:34 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (158.1ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 323ms (Views: 321.3ms)
+
+
+Started GET "/draft_list/list" for ::1 at 2018-05-25 13:02:39 -0700
+Processing by DraftListController#list as HTML
+  Rendering draft_list/list.html.erb within layouts/application
+  Rendered draft_list/list.html.erb within layouts/application (230.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 278ms (Views: 276.3ms)
+
+
