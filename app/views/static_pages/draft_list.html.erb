@@ -1,0 +1,19 @@
+<% provide(:title, "Draft List") %>
+
+<h3>Idol Draft Official Rankings</h3>
+<p>Master prospect list as of 5.11.2018</p>
+
+<%
+  require 'roo'
+  xlsx = Roo::Excelx.new(Rails.root.join("#{Rails.root}/app/assets/spreadsheets/Idol-Draft-Master-List-5-24.xlsx"))
+%>
+
+<% i = 10 %>
+<% while xlsx.excelx_value(i, 'B') != nil %>
+  <p>
+    <%= xlsx.excelx_value(i, 'B') %> &nbsp &nbsp
+    <%= xlsx.excelx_value(i, 'C') %> &nbsp &nbsp
+    <%= xlsx.excelx_value(i, 'D') %> &nbsp &nbsp
+  </p>
+  <% i += 1 %>
+<% end %>

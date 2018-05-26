@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
   get 'draft_list/list'
 
+  #functional routes
   root   'static_pages#home'
-  #get    '/list'     to: 'draft_list#list'
-  
+  get    '/draft_list',            to: 'static_pages#draft_list'
+  get    '/line_distributions',    to: 'static_pages#line_distributions'
+
+  #to be removed or changed
   get    '/help',    to: 'static_pages#help'
   get    '/about',   to: 'static_pages#about'
   get    '/contact', to: 'static_pages#contact'
@@ -13,7 +16,5 @@ Rails.application.routes.draw do
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
   resources :users
-
-  resources :microposts,          only: [:create, :destroy]
 
 end
