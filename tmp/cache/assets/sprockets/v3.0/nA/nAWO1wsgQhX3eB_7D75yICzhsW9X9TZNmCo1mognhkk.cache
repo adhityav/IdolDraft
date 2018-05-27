@@ -1,0 +1,50 @@
+{:uriI"{file://app/assets/distributions/vixx.yml?type=text/yaml&id=8884b094ab3c234d4a2b17f9d5d7402e561ec234cfb13eb6382efa69e69c5f01:ET:load_pathI"app/assets/distributions;T:filenameI"&app/assets/distributions/vixx.yml;T:	nameI"	vixx;T:logical_pathI"vixx.yml;T:content_typeI"text/yaml;T:sourceI"Ï---
+#Group Info
+group_name: "VIXX"
+songs_num: 3
+members_num: 6
+members:
+  1: "N"
+  2: "Leo"
+  3: "Ken"
+  4: "Ravi"
+  5: "Hongbin"
+  6: "Hyuk"
+
+#Song Details
+song_1:
+  id: 1
+  title: "On and On"
+  N: 22
+  Leo: 16
+  Ken: 10
+  Ravi: 21
+  Hongbin: 16
+  Hyuk: 15
+
+song_2:
+  id: 2
+  title: "Voodoo Doll"
+  N: 23
+  Leo: 19
+  Ken: 26
+  Ravi: 17
+  Hongbin: 6
+  Hyuk: 9
+
+song_3:
+  id: 3
+  title: "Chained Up"
+  N: 14
+  Leo: 26
+  Ken: 17
+  Ravi: 20
+  Hongbin: 13
+  Hyuk: 11
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"4file-digest://app/assets/distributions/vixx.yml;TTF:charsetI"
+utf-8;F:digest"%á¥!>ĞmqCúÍ¨ØÊ±¾á€»}
+`]ìOábT:lengthiÏ:dependencies_digest"%¡ö¶Ï@Ê!ãin}Âª@ä’¤²ÓGîV5Ù6»}:idI"E8884b094ab3c234d4a2b17f9d5d7402e561ec234cfb13eb6382efa69e69c5f01;F:
+mtimel+óI
+[

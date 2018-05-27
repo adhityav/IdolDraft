@@ -1,0 +1,41 @@
+{:uriI"{file://app/assets/distributions/2ne1.yml?type=text/yaml&id=1486488a32ed80260b5f853b8e3815ed3a4f33b24001f0c5ed2beb0217631cec:ET:load_pathI"app/assets/distributions;T:filenameI"&app/assets/distributions/2ne1.yml;T:	nameI"	2ne1;T:logical_pathI"2ne1.yml;T:content_typeI"text/yaml;T:sourceI"---
+#Group Info
+group_name: "2ne1"
+songs_num: 3
+members_num: 4
+members:
+  1: "CL"
+  2: "Bom"
+  3: "Dara"
+  4: "Minzy"
+
+#Song Details
+song_1:
+  id: 1
+  title: "I Am The Best"
+  CL: 53
+  Bom: 15
+  Dara: 12
+  Minzy: 20
+
+song_2:
+  id: 2
+  title: "I Love You"
+  CL: 40
+  Bom: 20
+  Dara: 11
+  Minzy: 29
+
+song_3:
+  id: 3
+  title: "Falling In Love"
+  CL: 27
+  Bom: 33
+  Dara: 15
+  Minzy: 26
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"4file-digest://app/assets/distributions/2ne1.yml;TTF:charsetI"
+utf-8;F:digest"%1FW÷≥ªGêFÇ•'(k=õ!2Ω‡¢å&BL£DËJ:lengthi:dependencies_digest"%O∏Lfˇ†€÷1?›…øÑø†8”»ÇË\åmå%+,!T:idI"E1486488a32ed80260b5f853b8e3815ed3a4f33b24001f0c5ed2beb0217631cec;F:
+mtimel+&I
+[

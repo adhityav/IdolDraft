@@ -1,0 +1,45 @@
+{:uriI"}file://app/assets/distributions/winner.yml?type=text/yaml&id=76ccb9a5355109994954ba40322225fbb46c7938849687f2767dd48b2fdf1ed2:ET:load_pathI"app/assets/distributions;T:filenameI"(app/assets/distributions/winner.yml;T:	nameI"winner;T:logical_pathI"winner.yml;T:content_typeI"text/yaml;T:sourceI"æ---
+#Group Info
+group_name: "WINNER"
+songs_num: 3
+members_num: 5
+members:
+  1: "Yoon"
+  2: "Jinu"
+  3: "Hoony"
+  4: "Mino"
+  5: "Taehyun"
+
+#Song Details
+song_1:
+  id: 1
+  title: "Sentimental"
+  Yoon: 26
+  Jinu: 17
+  Hoony: 15
+  Mino: 27
+  Taehyun: 24
+
+song_2:
+  id: 2
+  title: "Really Really"
+  Yoon: 53
+  Jinu: 22
+  Hoony: 13
+  Mino: 12
+  Taehyun: 0
+
+song_3:
+  id: 3
+  title: "Everyday"
+  Yoon: 34
+  Jinu: 12
+  Hoony: 22
+  Mino: 32
+  Taehyun: 0
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"6file-digest://app/assets/distributions/winner.yml;TTF:charsetI"
+utf-8;F:digest"%O∏‘Á—Jàt˛û˙Ú˝a‡BpLıœßu©ù9V(:lengthiæ:dependencies_digest"%¥@"‡¢_Iq	Nyv"ò‘'ŸajPBHuaìƒ°øK˝:idI"E76ccb9a5355109994954ba40322225fbb46c7938849687f2767dd48b2fdf1ed2;F:
+mtimel+&I
+[

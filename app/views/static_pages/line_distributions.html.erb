@@ -7,21 +7,21 @@
 
 <%
   require 'yaml'
-  blackpink = YAML.load_file("#{Rails.root}/app/assets/distributions/vixx.yml")
+  Dir.glob("#{Rails.root}/app/assets/distributions/*.yml") do |f|
+  file = YAML.load_file(f)
 %>
+  <h4><%= file['group_name'] %></h4> </br>
+  <% for i in 1..file['songs_num'] %>
 
-<h4><%= blackpink['group_name'] %></h4> </br>
-<% for i in 1..blackpink['songs_num'] %>
+    <h5> &nbsp &nbsp <%= file["song_#{i}"]['title'] %></h5>
+    <% for j in 1..file['members_num'] %>
 
-  <h5><%= blackpink["song_#{i}"]['title'] %></h5>
-  <% for j in 1..blackpink['members_num'] %>
-
-    <% name = blackpink['members'][j] %>
-      <p> &nbsp &nbsp <%= "#{name}: " %>
-        <%= blackpink["song_#{i}"]["#{name}"] %>
-        <%= 'points' %>
-      </p>
+      <% name = file['members'][j] %>
+        <p> &nbsp &nbsp &nbsp &nbsp <%= "#{name}: " %>
+          <%= file["song_#{i}"]["#{name}"] %>
+          <%= 'points' %>
+        </p>
+    <% end %>
+    </br>
   <% end %>
-  </br>
-
 <% end %>

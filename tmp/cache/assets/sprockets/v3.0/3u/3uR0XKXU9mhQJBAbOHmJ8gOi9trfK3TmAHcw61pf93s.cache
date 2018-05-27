@@ -1,0 +1,53 @@
+{:uriI"~file://app/assets/distributions/monstax.yml?type=text/yaml&id=7db1e77acf7cc2f06760945b070796a4757cb39e51f32e637d030c2329ce7d05:ET:load_pathI"app/assets/distributions;T:filenameI")app/assets/distributions/monstax.yml;T:	nameI"monstax;T:logical_pathI"monstax.yml;T:content_typeI"text/yaml;T:sourceI"3---
+#Group Info
+group_name: "Monsta X"
+songs_num: 3
+members_num: 7
+members:
+  1: "Shownu"
+  2: "Wonho"
+  3: "Minhyuk"
+  4: "Kihyun"
+  5: "Hyungwon"
+  6: "Jooheon"
+  7: "I.M"
+
+#Song Details
+song_1:
+  id: 1
+  title: "Hero"
+  Shownu: 13
+  Wonho: 6
+  Minhyuk: 5
+  Kihyun: 35
+  Hyungwon: 7
+  Jooheon: 11
+  I.M: 24
+
+song_2:
+  id: 2
+  title: "Dramarama"
+  Shownu: 13
+  Wonho: 13
+  Minhyuk: 4
+  Kihyun: 34
+  Hyungwon: 7
+  Jooheon: 16
+  I.M: 14
+
+song_3:
+  id: 3
+  title: "Beautiful"
+  Shownu: 9
+  Wonho: 11
+  Minhyuk: 9
+  Kihyun: 29
+  Hyungwon: 13
+  Jooheon: 19
+  I.M: 11
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"7file-digest://app/assets/distributions/monstax.yml;TTF:charsetI"
+utf-8;F:digest"%Õjf•7€œ©X†ïöß²(û˜"EíSê”0nõM§:lengthi3:dependencies_digest"%ã1K×êa¯@M3$<Ýì6ù$òBíøm78Y7f%ÿlµ:idI"E7db1e77acf7cc2f06760945b070796a4757cb39e51f32e637d030c2329ce7d05;F:
+mtimel+ÞP
+[
