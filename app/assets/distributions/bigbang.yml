@@ -9,7 +9,7 @@ members:
   3: "Taeyang"
   4: "Daesung"
   5: "Seungri"
-  
+
 #Song Details
 song_1:
   id: 1
@@ -30,7 +30,7 @@ song_2:
   Seungri: 0
 
 song_3:
-id: 3
+  id: 3
   title: "Last Dance"
   GDragon: 20
   TOP: 19

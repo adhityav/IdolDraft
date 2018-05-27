@@ -1,5 +1,5 @@
 ---
-#Group Name
+#Group Info
 group_name: "Monsta X"
 songs_num: 3
 members_num: 7
@@ -11,7 +11,7 @@ members:
   5: "Hyungwon"
   6: "Jooheon"
   7: "I.M"
-  
+
 #Song Details
 song_1:
   id: 1
@@ -25,7 +25,7 @@ song_1:
   I.M: 24
 
 song_2:
-id: 2
+  id: 2
   title: "Dramarama"
   Shownu: 13
   Wonho: 13
