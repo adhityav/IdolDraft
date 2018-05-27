@@ -1,0 +1,35 @@
+{:uriI"{file://app/assets/distributions/vixx.yml?type=text/yaml&id=b25e02fd76b4c03be139c4472535a1b52df03a6e2109d46064b54089224942bc:ET:load_pathI"app/assets/distributions;T:filenameI"&app/assets/distributions/vixx.yml;T:	nameI"	vixx;T:logical_pathI"vixx.yml;T:content_typeI"text/yaml;T:sourceI"-name: "VIXX"
+members: 6
+songs: 3
+
+id: 1
+Song: "On and On"
+  N: 22
+  Leo: 16
+  Ken: 10
+  Ravi: 21
+  Hongbin: 16
+  Hyuk: 15
+
+id: 2
+Song: "Voodoo Doll"
+  N: 23
+  Leo: 19
+  Ken: 26
+  Ravi: 17
+  Hongbin: 6
+  Hyuk: 9
+
+id: 3
+Song: "Chained Up"
+  N: 14
+  Leo: 26
+  Ken: 17
+  Ravi: 20
+  Hongbin: 13
+  Hyuk: 11
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"4file-digest://app/assets/distributions/vixx.yml;TTF:charsetI"
+utf-8;F:digest"%}Ì·‡çg!puç<âL?üœ&º%+O,jõUýíÄ:lengthi-:dependencies_digest"%EÎ"8°8@ØäëêôÏ­b%À$®¯DMTcë:idI"Eb25e02fd76b4c03be139c4472535a1b52df03a6e2109d46064b54089224942bc;F:
+mtimel+k×	[

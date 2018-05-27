@@ -1,0 +1,29 @@
+{:uriI"{file://app/assets/distributions/2ne1.yml?type=text/yaml&id=32c34d88e97ca5decb2409ce374b7c899851aae090415a1279aea32fbe0cf7a5:ET:load_pathI"app/assets/distributions;T:filenameI"&app/assets/distributions/2ne1.yml;T:	nameI"	2ne1;T:logical_pathI"2ne1.yml;T:content_typeI"text/yaml;T:sourceI"õname: "2NE1"
+members: 4
+songs: 3
+
+id: 1
+Song: "I Am The Best"
+  CL: 53
+  Bom: 15
+  Dara: 12
+  Minzy: 20
+
+id: 2
+Song: "I Love You"
+  CL: 40
+  Bom: 20
+  Dara: 11
+  Minzy: 29
+
+id: 3
+Song: "Falling In Love"
+  CL: 27
+  Bom: 33
+  Dara: 15
+  Minzy: 26
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"4file-digest://app/assets/distributions/2ne1.yml;TTF:charsetI"
+utf-8;F:digest"%s›M*Æ2ïák÷#ñy_§‰g»v6|’^r:lengthiõ:dependencies_digest"%®À]Qž|Üvþ)Àª’H«mŒùÕ‡0‘qÏë_´:idI"E32c34d88e97ca5decb2409ce374b7c899851aae090415a1279aea32fbe0cf7a5;F:
+mtimel+÷Ö	[

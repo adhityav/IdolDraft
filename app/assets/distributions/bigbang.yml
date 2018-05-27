@@ -4,24 +4,24 @@ songs: 3
 
 id: 1
 Song: "Fantastic Baby"
-  GDragon: 46
-  TOP: 22
-  Taeyang: 17
-  Daesung: 8
-  Seungri: 8
+GDragon: 46
+TOP: 22
+Taeyang: 17
+Daesung: 8
+Seungri: 8
 
 id: 2
 Song: "Loser"
-  GDragon: 19
-  TOP: 19
-  Taeyang: 44
-  Daesung: 19
-  Seungri: 0
+GDragon: 19
+TOP: 19
+Taeyang: 44
+Daesung: 19
+Seungri: 0
 
 id: 3
 Song: "Last Dance"
-  GDragon: 20
-  TOP: 19
-  Taeyang: 29
-  Daesung: 16
-  Seungri: 17
+GDragon: 20
+TOP: 19
+Taeyang: 29
+Daesung: 16
+Seungri: 17

@@ -1,0 +1,30 @@
+{:uriI"~file://app/assets/distributions/mamamoo.yml?type=text/yaml&id=8494e6d14c0dfb007335f529900d50e36c9cfed8359001252ffb0db62d61444b:ET:load_pathI"app/assets/distributions;T:filenameI")app/assets/distributions/mamamoo.yml;T:	nameI"mamamoo;T:logical_pathI"mamamoo.yml;T:content_typeI"text/yaml;T:sourceI"name: "MAMAMOO"
+members: 4
+songs: 3
+
+id: 1
+Song: "Decalcomanie"
+  Solar: 30
+  Moonbyul: 12
+  Wheein: 33
+  Hwasa: 25
+
+id: 2
+Song: "I Miss You"
+  Solar: 35
+  Moonbyul: 7
+  Wheein: 37
+  Hwasa: 21
+
+id: 3
+Song: "Piano Man"
+  Solar: 36
+  Moonbyul: 22
+  Wheein: 20
+  Hwasa: 23
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"7file-digest://app/assets/distributions/mamamoo.yml;TTF:charsetI"
+utf-8;F:digest"%U>rèkp56öòO›ôWº®>¢v?"Ê®àC¿¤™¤:lengthi:dependencies_digest"%´ª-Ûù?C¡­\ãw³TÃ™Ê23~cJ©³:idI"E8494e6d14c0dfb007335f529900d50e36c9cfed8359001252ffb0db62d61444b;F:
+mtimel+å
+[

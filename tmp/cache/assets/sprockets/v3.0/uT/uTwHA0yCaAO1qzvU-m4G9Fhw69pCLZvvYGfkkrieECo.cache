@@ -1,0 +1,32 @@
+{:uriI"€file://app/assets/distributions/redvelvet.yml?type=text/yaml&id=afc3e5efa40035a117726480e47574cedc90a716ca4bae0513f119f6b9d0318e:ET:load_pathI"app/assets/distributions;T:filenameI"+app/assets/distributions/redvelvet.yml;T:	nameI"redvelvet;T:logical_pathI"redvelvet.yml;T:content_typeI"text/yaml;T:sourceI"$name: "Red Velvet"
+members: 5
+songs: 3
+
+id: 1
+Song: "Rookie"
+  Irene: 17
+  Seulgi: 30
+  Wendy: 27
+  Joy: 13
+  Yeri: 14
+
+id: 2
+Song: "Russian Roulette"
+  Irene: 17
+  Seulgi: 22
+  Wendy: 20
+  Joy: 22
+  Yeri: 19
+
+id: 3
+Song: "Dumb Dumb"
+  Irene: 27
+  Seulgi: 13
+  Wendy: 22
+  Joy: 25
+  Yeri: 13
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"9file-digest://app/assets/distributions/redvelvet.yml;TTF:charsetI"
+utf-8;F:digest"%•Z!Lþä7Î°æ¸Þ–ã',ÓzÐsŠÏÄÉV:lengthi$:dependencies_digest"%£!¯˜©zÏH<²	±Î_ó0K]ÖCZOJkGî"?:idI"Eafc3e5efa40035a117726480e47574cedc90a716ca4bae0513f119f6b9d0318e;F:
+mtimel+:×	[

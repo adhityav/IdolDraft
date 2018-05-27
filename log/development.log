@@ -3785,3 +3785,835 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 56ms (Views: 53.3ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for ::1 at 2018-05-26 19:49:44 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 3576ms (Views: 3556.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 19:49:50 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /Users/adhityavadivel/IdolDraft/app/assets/docs/tax_rates.yml):
+     5: 
+     6: <%
+     7:   require 'yaml'
+     8:   blackpink = YAML.load_file("#{Rails.root}/app/assets/docs/tax_rates.yml")
+     9: %>
+    10: 
+    11: <h2><%= blackpink.inspect %></h2>
+  
+app/views/static_pages/line_distributions.html.erb:8:in `_app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294272839200'
+Started GET "/line_distributions" for ::1 at 2018-05-26 19:50:18 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error ((/Users/adhityavadivel/IdolDraft/app/assets/distributions/blackpink.yml): did not find expected key while parsing a block mapping at line 1 column 1):
+     5: 
+     6: <%
+     7:   require 'yaml'
+     8:   blackpink = YAML.load_file("#{Rails.root}/app/assets/distributions/blackpink.yml")
+     9: %>
+    10: 
+    11: <h2><%= blackpink.inspect %></h2>
+  
+app/views/static_pages/line_distributions.html.erb:8:in `_app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294293392460'
+Started GET "/line_distributions" for ::1 at 2018-05-26 19:51:01 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error ((/Users/adhityavadivel/IdolDraft/app/assets/distributions/blackpink.yml): did not find expected key while parsing a block mapping at line 1 column 1):
+     5: 
+     6: <%
+     7:   require 'yaml'
+     8:   blackpink = YAML.load_file("#{Rails.root}/app/assets/distributions/blackpink.yml")
+     9: %>
+    10: 
+    11: <h2><%= blackpink.inspect %></h2>
+  
+app/views/static_pages/line_distributions.html.erb:8:in `_app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294293721820'
+Started GET "/line_distributions" for ::1 at 2018-05-26 19:52:13 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error ((/Users/adhityavadivel/IdolDraft/app/assets/distributions/blackpink.yml): did not find expected key while parsing a block mapping at line 1 column 1):
+     5: 
+     6: <%
+     7:   require 'yaml'
+     8:   blackpink = YAML.load_file("#{Rails.root}/app/assets/distributions/blackpink.yml")
+     9: %>
+    10: 
+    11: <h2><%= blackpink['name'] %></h2>
+  
+app/views/static_pages/line_distributions.html.erb:8:in `_app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294275738680'
+Started GET "/line_distributions" for ::1 at 2018-05-26 19:53:36 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 19:54:53 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 94ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 19:57:11 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (2.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 57ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 19:58:20 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (1.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 61ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:02:33 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error ((/Users/adhityavadivel/IdolDraft/app/assets/distributions/blackpink.yml): mapping values are not allowed in this context at line 6 column 7):
+     5: 
+     6: <%
+     7:   require 'yaml'
+     8:   blackpink = YAML.load_file("#{Rails.root}/app/assets/distributions/blackpink.yml")
+     9: %>
+    10: 
+    11: <% #blackpink['songs'].times do %>
+  
+app/views/static_pages/line_distributions.html.erb:8:in `_app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294299771620'
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:08:31 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error ((/Users/adhityavadivel/IdolDraft/app/assets/distributions/blackpink.yml): mapping values are not allowed in this context at line 9 column 7):
+     5: 
+     6: <%
+     7:   require 'yaml'
+     8:   blackpink = YAML.load_file("#{Rails.root}/app/assets/distributions/blackpink.yml")
+     9: %>
+    10: 
+    11: <% #blackpink['songs'].times do %>
+  
+app/views/static_pages/line_distributions.html.erb:8:in `_app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294292328920'
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:15:27 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.4ms) [cache miss]
+Completed 200 OK in 65ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:17:38 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (2.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 71ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:18:00 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 62ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:22:24 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (28.2ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `members' for #<#<Class:0x007fdd4ff21ff0>:0x007fdd551aa178>):
+    12: <% blackpink['songs_num'].times do %>
+    13:   <% blackpink['members_num'].times do %>
+    14: 
+    15:     <p><%=  blackpink[members[0]]%></p>
+    16: 
+    17:   <% end %>
+    18: <% end %>
+  
+app/views/static_pages/line_distributions.html.erb:15:in `block (2 levels) in _app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294296155520'
+app/views/static_pages/line_distributions.html.erb:13:in `times'
+app/views/static_pages/line_distributions.html.erb:13:in `block in _app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294296155520'
+app/views/static_pages/line_distributions.html.erb:12:in `times'
+app/views/static_pages/line_distributions.html.erb:12:in `_app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294296155520'
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:22:36 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (24.8ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `members' for #<#<Class:0x007fdd4ff21ff0>:0x007fdd54841050>):
+    12: <% blackpink['songs_num'].times do %>
+    13:   <% blackpink['members_num'].times do %>
+    14: 
+    15:     <p><%=  blackpink[members] %></p>
+    16: 
+    17:   <% end %>
+    18: <% end %>
+  
+app/views/static_pages/line_distributions.html.erb:15:in `block (2 levels) in _app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294291221740'
+app/views/static_pages/line_distributions.html.erb:13:in `times'
+app/views/static_pages/line_distributions.html.erb:13:in `block in _app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294291221740'
+app/views/static_pages/line_distributions.html.erb:12:in `times'
+app/views/static_pages/line_distributions.html.erb:12:in `_app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294291221740'
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:22:46 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 71ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:23:15 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 93ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:23:16 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (9.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 97ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:23:23 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/app/views/static_pages/line_distributions.html.erb:15: syntax error, unexpected ')', expecting ']'
+...d=(  blackpink['members' => 0 );@output_buffer.safe_append='...
+...                               ^
+/Users/adhityavadivel/IdolDraft/app/views/static_pages/line_distributions.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/adhityavadivel/IdolDraft/app/views/static_pages/line_distributions.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/adhityavadivel/IdolDraft/app/views/static_pages/line_distributions.html.erb:22: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/static_pages/line_distributions.html.erb:15: syntax error, unexpected ')', expecting ']'
+app/views/static_pages/line_distributions.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/static_pages/line_distributions.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/static_pages/line_distributions.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:26:15 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 65ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:26:51 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/app/views/static_pages/line_distributions.html.erb:13: syntax error, unexpected '}', expecting =>
+....append=( blackpink["song_#{{i}}"] );@output_buffer.safe_app...
+...                               ^
+/Users/adhityavadivel/IdolDraft/app/views/static_pages/line_distributions.html.erb:13: unterminated string meets end of file):
+  
+app/views/static_pages/line_distributions.html.erb:13: syntax error, unexpected '}', expecting =>
+app/views/static_pages/line_distributions.html.erb:13: unterminated string meets end of file
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:27:01 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:27:21 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.6ms) [cache miss]
+Completed 200 OK in 46ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:28:06 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 57ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:30:49 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    11: <h4><%= blackpink['group_name'] %></h4>
+    12: <% for i in 1..blackpink['songs_num'] %>
+    13:     <p><%= blackpink["song_#{i}"]['title'] %></p>
+    14:     <p><%= blackpink["song_#{i}"]['members'][i] %></p>
+    15: <% end %>
+  
+app/views/static_pages/line_distributions.html.erb:14:in `block in _app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294291366280'
+app/views/static_pages/line_distributions.html.erb:12:in `_app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294291366280'
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:31:15 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    11: <h4><%= blackpink['group_name'] %></h4>
+    12: <% for i in 1..blackpink['songs_num'] %>
+    13:     <p><%= blackpink["song_#{i}"]['title'] %></p>
+    14:     <p><%= blackpink["song_#{i}"]['members']["#{i}"] %></p>
+    15: <% end %>
+  
+app/views/static_pages/line_distributions.html.erb:14:in `block in _app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294300412440'
+app/views/static_pages/line_distributions.html.erb:12:in `_app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294300412440'
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:31:32 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 54ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:31:43 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.4ms) [cache miss]
+Completed 200 OK in 64ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:31:53 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 54ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:32:18 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 55ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 20:32:37 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 47ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:29:21 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:31:12 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 82ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:31:46 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 61ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:32:12 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 75ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:32:30 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:32:52 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (1.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:33:17 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 60ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:33:19 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (10.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 96ms (Views: 93.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:33:35 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 58ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:33:58 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:34:16 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (2.3ms) [cache miss]
+Completed 200 OK in 133ms (Views: 129.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:34:33 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 68ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:40:42 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (6.9ms) [cache miss]
+Completed 200 OK in 89ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:41:13 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/app/views/static_pages/line_distributions.html.erb:20: syntax error, unexpected tLABEL
+...e;@output_buffer.append=( name: blackpink["song_#{i}"]["#{na...
+...                               ^):
+  
+app/views/static_pages/line_distributions.html.erb:20: syntax error, unexpected tLABEL
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:41:25 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Fixnum into String):
+    17:   <% for j in 1..blackpink['members_num'] %>
+    18: 
+    19:     <% name = blackpink['members'][j] %>
+    20:     <p><%= 'name:' + blackpink["song_#{i}"]["#{name}"] %></p>
+    21: 
+    22:   <% end %>
+    23: <% end %>
+  
+app/views/static_pages/line_distributions.html.erb:20:in `+'
+app/views/static_pages/line_distributions.html.erb:20:in `block (2 levels) in _app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294294330020'
+app/views/static_pages/line_distributions.html.erb:17:in `block in _app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294294330020'
+app/views/static_pages/line_distributions.html.erb:14:in `_app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294294330020'
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:42:21 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 64ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:42:48 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:43:03 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 70ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:43:05 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 67ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:43:42 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:44:24 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/app/views/static_pages/line_distributions.html.erb:21: syntax error, unexpected tSTRING_BEG, expecting ')'
+...kpink["song_#{i}"]["#{name}"] 'points' );@output_buffer.safe...
+...                               ^):
+  
+app/views/static_pages/line_distributions.html.erb:21: syntax error, unexpected tSTRING_BEG, expecting ')'
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:44:52 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.4ms) [cache miss]
+Completed 200 OK in 60ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:45:08 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (29.1ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `points' for #<#<Class:0x007fdd4ff21ff0>:0x007fdd55a8ab80>
+Did you mean?  print):
+    19:     <% name = blackpink['members'][j] %>
+    20:       <p> &nbsp &nbsp <%= "#{name}: " %>
+    21:         <%= blackpink["song_#{i}"]["#{name}"] %>
+    22:         <%= points %>
+    23:       </p>
+    24: 
+    25:   <% end %>
+  
+app/views/static_pages/line_distributions.html.erb:22:in `block (2 levels) in _app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294300809860'
+app/views/static_pages/line_distributions.html.erb:17:in `block in _app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294300809860'
+app/views/static_pages/line_distributions.html.erb:14:in `_app_views_static_pages_line_distributions_html_erb___1760234993557280409_70294300809860'
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:45:18 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 54ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:45:26 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 55ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:45:39 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 50ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:45:54 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 58ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:49:34 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:53:06 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 144ms (Views: 140.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:53:14 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:53:27 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 61ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 21:56:06 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 61ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 22:02:39 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 122ms (Views: 120.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 22:03:31 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 54ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 22:04:22 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 22:04:37 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 22:04:48 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 68ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-26 22:04:53 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+

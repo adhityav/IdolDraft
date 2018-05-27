@@ -1,9 +1,21 @@
-name: "BTS"
-members: 7
-songs: 3
+---
+#Group Info
+group_name: "BTS"
+songs_num: 3
+members_num: 7
+members:
+  1: "RM"
+  2: "Jin"
+  3: "Suga"
+  4: "JHope"
+  5: "Jimin"
+  6: "V"
+  7: "Jungkook"
 
-id: 1
-Song: "Save Me"
+#Song Details
+song_1:
+  id: 1
+  title: "Save Me"
   RM: 11
   Jin: 13
   Suga: 9
@@ -12,8 +24,9 @@ Song: "Save Me"
   V: 13
   Jungkook: 23
 
-id: 2
-Song: "Dope"
+song_2:
+  id: 2
+  title: "Dope"
   RM: 16
   Jin: 6
   Suga: 13
@@ -22,8 +35,9 @@ Song: "Dope"
   V: 11
   Jungkook: 28
 
-id: 3
-Song: "No More Dream"
+song_3:
+  id: 3
+  title: "No More Dream"
   RM: 34
   Jin: 3
   Suga: 14
