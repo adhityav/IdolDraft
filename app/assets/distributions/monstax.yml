@@ -1,33 +1,47 @@
-name: "Monsta X"
-members: 7
-songs: 3
+---
+#Group Name
+group_name: "Monsta X"
+songs_num: 3
+members_num: 7
+members:
+  1: "Shownu"
+  2: "Wonho"
+  3: "Minhyuk"
+  4: "Kihyun"
+  5: "Hyungwon"
+  6: "Jooheon"
+  7: "I.M"
+  
+#Song Details
+song_1:
+  id: 1
+  title: "Hero"
+  Shownu: 13
+  Wonho: 6
+  Minhyuk: 5
+  Kihyun: 35
+  Hyungwon: 7
+  Jooheon: 11
+  I.M: 24
 
-id: 1
-Song: "Hero"
-Shownu: 13
-Wonho: 6
-Minhyuk: 5
-Kihyun: 35
-Hyungwon: 7
-Jooheon: 11
-I.M: 24
-
+song_2:
 id: 2
-Song: "Dramarama"
-Shownu: 13
-Wonho: 13
-Minhyuk: 4
-Kihyun: 34
-Hyungwon: 7
-Jooheon: 16
-I.M: 14
+  title: "Dramarama"
+  Shownu: 13
+  Wonho: 13
+  Minhyuk: 4
+  Kihyun: 34
+  Hyungwon: 7
+  Jooheon: 16
+  I.M: 14
 
-id: 3
-Song: "Beautiful"
-Shownu: 9
-Wonho: 11
-Minhyuk: 9
-Kihyun: 29
-Hyungwon: 13
-Jooheon: 19
-I.M: 11
+song_3:
+  id: 3
+  title: "Beautiful"
+  Shownu: 9
+  Wonho: 11
+  Minhyuk: 9
+  Kihyun: 29
+  Hyungwon: 13
+  Jooheon: 19
+  I.M: 11
