@@ -1,0 +1,29 @@
+{:uriI"€file://app/assets/distributions/blackpink.yml?type=text/yaml&id=ba1c54753173d67727c377b375031e8c4a2a6d63e1f8285ffe7e2079587dde65:ET:load_pathI"app/assets/distributions;T:filenameI"+app/assets/distributions/blackpink.yml;T:	nameI"blackpink;T:logical_pathI"blackpink.yml;T:content_typeI"text/yaml;T:sourceI"name: "BLACKPINK"
+members: 4
+songs: 3
+
+id: 1
+Song: "Boombayah"
+  Jisoo: 25
+  Jennie: 22
+  Rose: 30
+  Lisa: 24
+
+id: 2
+Song: "Whistle"
+  Jisoo: 20
+  Jennie: 38
+  Rose: 18
+  Lisa: 24
+
+id: 3
+Song: "Playing With Fire"
+  Jisoo: 18
+  Jennie: 26
+  Rose: 24
+  Lisa: 31
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"9file-digest://app/assets/distributions/blackpink.yml;TTF:charsetI"
+utf-8;F:digest"%z%a·Ş¹-¨Ç •v›«Z–¹Äo+X!•ú:lengthi:dependencies_digest"%Gœ^Ì—FfRÎÇÜŸÎÄ«óg+” é‘l?ê·—h:idI"Eba1c54753173d67727c377b375031e8c4a2a6d63e1f8285ffe7e2079587dde65;F:
+mtimel+„×	[

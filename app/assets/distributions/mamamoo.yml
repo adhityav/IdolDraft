@@ -1,23 +1,34 @@
-name: "MAMAMOO"
-members: 4
-songs: 3
+---
+#Group Info
+group_name: "MAMAMOO"
+songs_num: 3
+members_num: 4
+members:
+  1: "Solar"
+  2: "Moonbyul"
+  3: "Wheein"
+  4: "Hwasa"
 
-id: 1
-Song: "Decalcomanie"
+#Song Details
+song_1:
+  id: 1
+  title: "Décalcomanie"
   Solar: 30
   Moonbyul: 12
   Wheein: 33
   Hwasa: 25
 
-id: 2
-Song: "I Miss You"
+song_2:
+  id: 2
+  title: "I Miss You"
   Solar: 35
-  Moonbyul: 12
-  Wheein: 7
+  Moonbyul: 7
+  Wheein: 37
   Hwasa: 21
 
-id: 3
-Song: "Piano Man"
+song_3:
+  id: 3
+  title: "Piano Man"
   Solar: 36
   Moonbyul: 22
   Wheein: 20

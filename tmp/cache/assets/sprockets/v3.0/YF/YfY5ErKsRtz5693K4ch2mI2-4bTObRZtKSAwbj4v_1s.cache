@@ -1,0 +1,39 @@
+{:uriI"file://app/assets/distributions/bts.yml?type=text/yaml&id=eef039bafc63607b0b9c55c7fd77dc8857bc64b7fe4582bebad2b409536509ff:ET:load_pathI"app/assets/distributions;T:filenameI"%app/assets/distributions/bts.yml;T:	nameI"bts;T:logical_pathI"bts.yml;T:content_typeI"text/yaml;T:sourceI"Hname: "BTS"
+members: 7
+songs: 3
+
+id: 1
+Song: "Save Me"
+  RM: 11
+  Jin: 13
+  Suga: 9
+  JHope: 9
+  Jimin: 22
+  V: 13
+  Jungkook: 23
+
+id: 2
+Song: "Dope"
+  RM: 16
+  Jin: 6
+  Suga: 13
+  JHope: 8
+  Jimin: 18
+  V: 11
+  Jungkook: 28
+
+id: 3
+Song: "No More Dream"
+  RM: 34
+  Jin: 3
+  Suga: 14
+  JHope: 10
+  Jimin: 9
+  V: 3
+  Jungkook: 26
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"3file-digest://app/assets/distributions/bts.yml;TTF:charsetI"
+utf-8;F:digest"%,yØXjæ ˆ¬ğ`ík”:#¾»zÍJ¦ö@1¤%:lengthiH:dependencies_digest"%O†¼ß¹¼›Bñ[[æ#‚kÚáñï~«…˜pè6WØ:idI"Eeef039bafc63607b0b9c55c7fd77dc8857bc64b7fe4582bebad2b409536509ff;F:
+mtimel+:
+[

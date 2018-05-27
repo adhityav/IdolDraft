@@ -1,0 +1,35 @@
+{:uriI"~file://app/assets/distributions/gfriend.yml?type=text/yaml&id=5d883c7500767173a9d9db3045fcdbcda43d51bb831f1ca87c14239b412b07ce:ET:load_pathI"app/assets/distributions;T:filenameI")app/assets/distributions/gfriend.yml;T:	nameI"gfriend;T:logical_pathI"gfriend.yml;T:content_typeI"text/yaml;T:sourceI"5name: "GFriend"
+members: 6
+songs: 3
+
+id: 1
+Song: "Fingertip"
+  Sowon: 8
+  Yerin: 10
+  Eunha: 17
+  Yuju: 40
+  SinB: 15
+  Umji: 11
+
+id: 2
+Song: "Rough"
+  Sowon: 4
+  Yerin: 7
+  Eunha: 31
+  Yuju: 31
+  SinB: 16
+  Umji: 11
+
+id: 3
+Song: "Navillera"
+  Sowon: 8
+  Yerin: 11
+  Eunha: 26
+  Yuju: 31
+  SinB: 17
+  Umji: 7
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"7file-digest://app/assets/distributions/gfriend.yml;TTF:charsetI"
+utf-8;F:digest"%ŒeÿxCMr’z3ôooCsjõ¦ÔªÕ–sa%–2Yi=„:lengthi5:dependencies_digest"%iÀïˆ—¿•3~A€ÍoE__K+ršğ›Ñ1zÃ5hS²:idI"E5d883c7500767173a9d9db3045fcdbcda43d51bb831f1ca87c14239b412b07ce;F:
+mtimel+§ü	[

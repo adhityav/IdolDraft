@@ -1,19 +1,27 @@
 <% provide(:title, "Line Distributions") %>
 
 <h3>Idol Draft Line Distributions</h3>
-<p>Master prospect list as of 5.11.2018</p>
+<p>Current list for test server</p>
+
+</br>
 
 <%
-  require 'roo'
-  xlsx = Roo::Excelx.new(Rails.root.join("#{Rails.root}/app/assets/spreadsheets/Idol-Draft-Master-List-5-24.xlsx"))
+  require 'yaml'
+  blackpink = YAML.load_file("#{Rails.root}/app/assets/distributions/bts.yml")
 %>
 
-<% i = 10 %>
-<% while xlsx.excelx_value(i, 'B') != nil %>
-  <p>
-    <%= xlsx.excelx_value(i, 'B') %> &nbsp &nbsp
-    <%= xlsx.excelx_value(i, 'C') %> &nbsp &nbsp
-    <%= xlsx.excelx_value(i, 'D') %> &nbsp &nbsp
-  </p>
-  <% i += 1 %>
+<h4><%= blackpink['group_name'] %></h4> </br>
+<% for i in 1..blackpink['songs_num'] %>
+
+  <h5><%= blackpink["song_#{i}"]['title'] %></h5>
+  <% for j in 1..blackpink['members_num'] %>
+
+    <% name = blackpink['members'][j] %>
+      <p> &nbsp &nbsp <%= "#{name}: " %>
+        <%= blackpink["song_#{i}"]["#{name}"] %>
+        <%= 'points' %>
+      </p>
+  <% end %>
+  </br>
+
 <% end %>
