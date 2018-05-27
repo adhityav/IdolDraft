@@ -1,27 +1,39 @@
-name: "WINNER"
-members: 5
-songs: 3
+---
+#Group Info
+group_name: "WINNER"
+songs_num: 3
+members_num: 5
+members:
+  1: "Yoon"
+  2: "Jinu"
+  3: "Hoony"
+  4: "Mino"
+  5: "Taehyun"
 
-id: 1
-Song: "Sentimental"
-Yoon: 26
-Jinu: 17
-Hoony: 15
-Mino: 27
-Taehyun: 24
+#Song Details
+song_1:
+  id: 1
+  title: "Sentimental"
+  Yoon: 26
+  Jinu: 17
+  Hoony: 15
+  Mino: 27
+  Taehyun: 24
 
-id: 2
-Song: "Really Really"
-Yoon: 53
-Jinu: 22
-Hoony: 13
-Mino: 12
-Taehyun: 0
+song_2:
+  id: 2
+  title: "Really Really"
+  Yoon: 53
+  Jinu: 22
+  Hoony: 13
+  Mino: 12
+  Taehyun: 0
 
-id: 3
-Song: "Everyday"
-Yoon: 34
-Jinu: 12
-Hoony: 22
-Mino: 32
-Taehyun: 0
+song_3:
+  id: 3
+  title: "Everyday"
+  Yoon: 34
+  Jinu: 12
+  Hoony: 22
+  Mino: 32
+  Taehyun: 0
