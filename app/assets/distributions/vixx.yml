@@ -1,30 +1,43 @@
-name: "VIXX"
-members: 6
-songs: 3
+---
+#Group Info
+group_name: "VIXX"
+songs_num: 3
+members_num: 6
+members:
+  1: "N"
+  2: "Leo"
+  3: "Ken"
+  4: "Ravi"
+  5: "Hongbin"
+  6: "Hyuk"
 
-id: 1
-Song: "On and On"
-N: 22
-Leo: 16
-Ken: 10
-Ravi: 21
-Hongbin: 16
-Hyuk: 15
+#Song Details
+song_1:
+  id: 1
+  title: "On and On"
+  N: 22
+  Leo: 16
+  Ken: 10
+  Ravi: 21
+  Hongbin: 16
+  Hyuk: 15
 
+song_2:
 id: 2
-Song: "Voodoo Doll"
-N: 23
-Leo: 19
-Ken: 26
-Ravi: 17
-Hongbin: 6
-Hyuk: 9
+  title: "Voodoo Doll"
+  N: 23
+  Leo: 19
+  Ken: 26
+  Ravi: 17
+  Hongbin: 6
+  Hyuk: 9
 
-id: 3
-Song: "Chained Up"
-N: 14
-Leo: 26
-Ken: 17
-Ravi: 20
-Hongbin: 13
-Hyuk: 11
+song_3:
+  id: 3
+  title: "Chained Up"
+  N: 14
+  Leo: 26
+  Ken: 17
+  Ravi: 20
+  Hongbin: 13
+  Hyuk: 11
