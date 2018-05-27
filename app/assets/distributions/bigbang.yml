@@ -1,27 +1,39 @@
-name: "BIGBANG"
-members: 5
-songs: 3
+---
+#Group Info
+group_name: "BIGBANG"
+songs_num: 3
+members_num: 5
+members:
+  1: "GDragon"
+  2: "TOP"
+  3: "Taeyang"
+  4: "Daesung"
+  5: "Seungri"
+  
+#Song Details
+song_1:
+  id: 1
+  title: "Fantastic Baby"
+  GDragon: 46
+  TOP: 22
+  Taeyang: 17
+  Daesung: 8
+  Seungri: 8
 
-id: 1
-Song: "Fantastic Baby"
-GDragon: 46
-TOP: 22
-Taeyang: 17
-Daesung: 8
-Seungri: 8
+song_2:
+  id: 2
+  title: "Loser"
+  GDragon: 19
+  TOP: 19
+  Taeyang: 44
+  Daesung: 19
+  Seungri: 0
 
-id: 2
-Song: "Loser"
-GDragon: 19
-TOP: 19
-Taeyang: 44
-Daesung: 19
-Seungri: 0
-
+song_3:
 id: 3
-Song: "Last Dance"
-GDragon: 20
-TOP: 19
-Taeyang: 29
-Daesung: 16
-Seungri: 17
+  title: "Last Dance"
+  GDragon: 20
+  TOP: 19
+  Taeyang: 29
+  Daesung: 16
+  Seungri: 17
