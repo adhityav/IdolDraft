@@ -1,0 +1,33 @@
+name: "Monsta X"
+members: 7
+songs: 3
+
+id: 1
+Song: "Hero"
+  Shownu: 13
+  Wonho: 6
+  Minhyuk: 5
+  Kihyun: 35
+  Hyungwon: 7
+  Jooheon: 11
+  I.M: 24
+
+id: 2
+Song: "Dramarama"
+  Shownu: 13
+  Wonho: 13
+  Minhyuk: 4
+  Kihyun: 34
+  Hyungwon: 7
+  Jooheon: 16
+  I.M: 14
+
+id: 3
+Song: "Beautiful"
+  Shownu: 9
+  Wonho: 11
+  Minhyuk: 9
+  Kihyun: 29
+  Hyungwon: 13
+  Jooheon: 19
+  I.M: 11

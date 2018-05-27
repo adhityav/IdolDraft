@@ -1,0 +1,30 @@
+name: "GFriend"
+members: 6
+songs: 3
+
+id: 1
+Song: "Fingertip"
+  Sowon: 8
+  Yerin: 10
+  Eunha: 17
+  Yuju: 40
+  SinB: 15
+  Umji: 11
+
+id: 2
+Song: "Rough"
+  Sowon: 4
+  Yerin: 7
+  Eunha: 31
+  Yuju: 31
+  SinB: 16
+  Umji: 11
+
+id: 3
+Song: "Navillera"
+  Sowon: 8
+  Yerin: 11
+  Eunha: 26
+  Yuju: 31
+  SinB: 17
+  Umji: 7
