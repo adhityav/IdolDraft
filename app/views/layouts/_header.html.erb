@@ -1,14 +1,10 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-
-      <% #link_to image_tag("https://user-images.githubusercontent.com/13984734/40529732-03c4d63a-5fab-11e8-9779-5bfa416efb0d.png", height: '53.56x', width: '206.18px'), root_path, id: 'top_logo' %>
-      <%= link_to "Idol Draft", root_path, id: 'logo' %>
-
+    <%= link_to "IdolDraft", root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home", root_path %></li>
-        <li><%= link_to "Help", help_path %></li>
-        <li><%= link_to "Users", users_path %></li>
+        <li><%= link_to "Idol Rankings", draft_list_path %></li>
+        <li><%= link_to "Line Distributions", line_distributions_path %></li>
       </ul>
     </nav>
   </div>
