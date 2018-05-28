@@ -5270,3 +5270,55 @@ Processing by StaticPagesController#line_distributions as HTML
 Completed 200 OK in 57ms (Views: 55.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2018-05-28 16:20:28 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (3.1ms) [cache miss]
+Completed 200 OK in 580ms (Views: 560.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-28 16:20:31 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (14.2ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 81ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 16:20:50 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 90ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 16:38:09 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (290.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 368ms (Views: 365.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-28 16:38:11 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 88ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
