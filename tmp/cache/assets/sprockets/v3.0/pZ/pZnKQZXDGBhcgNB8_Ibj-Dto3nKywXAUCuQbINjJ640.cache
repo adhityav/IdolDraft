@@ -1,0 +1,25 @@
+I"ß(function() {
+  var coll, i;
+
+  coll = document.getElementsByClassName('collapsible');
+
+  i = void 0;
+
+  i = 0;
+
+  while (i < coll.length) {
+    coll[i].addEventListener('click', function() {
+      var content;
+      this.classList.toggle('active');
+      content = this.nextElementSibling;
+      if (content.style.display === 'block') {
+        content.style.display = 'none';
+      } else {
+        content.style.display = 'block';
+      }
+    });
+    i++;
+  }
+
+}).call(this);
+:ET

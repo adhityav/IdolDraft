@@ -1,0 +1,45 @@
+{:uriI"€file://app/assets/distributions/redvelvet.yml?type=text/yaml&id=4b3df7e6c8e91665215678fab8cf15b699d2fcf04c9e3d59d506dbb4ecd9e798:ET:load_pathI"app/assets/distributions;T:filenameI"+app/assets/distributions/redvelvet.yml;T:	nameI"redvelvet;T:logical_pathI"redvelvet.yml;T:content_typeI"text/yaml;T:sourceI"¿---
+#Group Info
+group_name: "Red Velvet"
+songs_num: 3
+members_num: 5
+members:
+  1: "Irene"
+  2: "Seulgi"
+  3: "Wendy"
+  4: "Joy"
+  5: "Yeri"
+
+#Song Details
+song_1:
+  id: 1
+  title: "Rookie"
+  Irene: 17
+  Seulgi: 30
+  Wendy: 27
+  Joy: 13
+  Yeri: 14
+
+song_2:
+  id: 2
+  title: "Russian Roulette"
+  Irene: 17
+  Seulgi: 22
+  Wendy: 20
+  Joy: 22
+  Yeri: 19
+
+song_3:
+  id: 3
+  title: "Dumb Dumb"
+  Irene: 27
+  Seulgi: 13
+  Wendy: 22
+  Joy: 25
+  Yeri: 13
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"9file-digest://app/assets/distributions/redvelvet.yml;TTF:charsetI"
+utf-8;F:digest"%5ðe~—'s‰ôæ_$6“³ìÖðîêˆÔ3‡}×ß×:lengthi¿:dependencies_digest"%–#¼ 2>bfÎ5õ‘•Å§!%õÀ‹/4Ï‹*c×¼:w:idI"E4b3df7e6c8e91665215678fab8cf15b699d2fcf04c9e3d59d506dbb4ecd9e798;F:
+mtimel+~V
+[

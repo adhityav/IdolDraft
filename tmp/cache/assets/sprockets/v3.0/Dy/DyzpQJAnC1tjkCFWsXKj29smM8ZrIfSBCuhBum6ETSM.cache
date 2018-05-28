@@ -1,0 +1,9 @@
+I"¡(function() {
+  $(function() {
+    $('#toggleAccordions').on('click', function(e) {
+      $('.panel-collapse').collapse('toggle');
+    });
+  });
+
+}).call(this);
+:ET

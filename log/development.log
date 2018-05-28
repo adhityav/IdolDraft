@@ -4617,3 +4617,656 @@ Processing by StaticPagesController#line_distributions as HTML
 Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2018-05-28 10:39:02 -0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 510ms (Views: 487.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-28 10:39:05 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (11.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 110ms (Views: 107.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 10:39:08 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (364.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 454ms (Views: 451.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 10:42:06 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (196.0ms)
+Completed 500 Internal Server Error in 491ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:5:1: reserved word 'var'):
+     6:   <%= favicon_link_tag asset_path('IdolDraftFaviconSmall.png'), :rel => 'icon', :type => "image/x-icon" %>
+     7:   <%= stylesheet_link_tag    'application', media: 'all',
+     8:                              'data-turbolinks-track': 'reload' %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   <%= render 'layouts/shim' %>
+    11: </head>
+    12: <body>
+  
+(execjs):7539:12
+(execjs):7543:21
+(execjs):1:46
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__4007097671269184155_70154606225780'
+Started GET "/draft_list" for ::1 at 2018-05-28 10:43:16 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (204.4ms)
+  Rendered layouts/_shim.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 463ms (Views: 460.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 10:43:22 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 82ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 10:44:40 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 187ms (Views: 185.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 10:44:53 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 74ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 10:46:01 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 150ms (Views: 147.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 10:47:10 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `coaching_forms' for nil:NilClass):
+    10:   </p>
+    11: </div>
+    12: 
+    13: <% @weekly_performance_review.coaching_forms.each_with_index do |coaching_form, index| %>
+    14:             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    15:               <div class="panel panel-default">
+    16:                 <div class="panel-heading" role="tab" id="headingOne">
+  
+app/views/static_pages/about.html.erb:13:in `_app_views_static_pages_about_html_erb___3326719517364410126_70154561568840'
+Started GET "/about" for ::1 at 2018-05-28 11:37:53 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `coaching_forms' for nil:NilClass):
+    10:   </p>
+    11: </div>
+    12: 
+    13: <% @weekly_performance_review.coaching_forms.each_with_index do |coaching_form, index| %>
+    14:             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    15:               <div class="panel panel-default">
+    16:                 <div class="panel-heading" role="tab" id="headingOne">
+  
+app/views/static_pages/about.html.erb:13:in `_app_views_static_pages_about_html_erb___3326719517364410126_70154621462060'
+Started GET "/about" for ::1 at 2018-05-28 11:37:58 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 64ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:40:24 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 60ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:40:25 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 85ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:40:26 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (2.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 109ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:40:26 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 112ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:40:27 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (2.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 89ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:40:28 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 65ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:41:16 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 56ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:41:18 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 67ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:41:21 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 67ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:44:46 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 43ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:44:48 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 72ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:45:40 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 109ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:45:42 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 90ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:45:43 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 108ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:47:07 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:3: reserved word 'function'):
+     6:   <%= favicon_link_tag asset_path('IdolDraftFaviconSmall.png'), :rel => 'icon', :type => "image/x-icon" %>
+     7:   <%= stylesheet_link_tag    'application', media: 'all',
+     8:                              'data-turbolinks-track': 'reload' %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   <%= render 'layouts/shim' %>
+    11: </head>
+    12: <body>
+  
+(execjs):7539:12
+(execjs):7543:21
+(execjs):1:46
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__4007097671269184155_70154643131920'
+Started GET "/about" for ::1 at 2018-05-28 11:47:32 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 281ms (Views: 278.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:47:34 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.9ms) [cache miss]
+Completed 200 OK in 81ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:47:34 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 108ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:47:34 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 126ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:47:35 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 77ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:47:35 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 86ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:47:36 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 86ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:47:36 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 92ms (Views: 88.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:52:02 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/adhityavadivel/IdolDraft/app/assets/config
+  /Users/adhityavadivel/IdolDraft/app/assets/distributions
+  /Users/adhityavadivel/IdolDraft/app/assets/images
+  /Users/adhityavadivel/IdolDraft/app/assets/javascripts
+  /Users/adhityavadivel/IdolDraft/app/assets/spreadsheets
+  /Users/adhityavadivel/IdolDraft/app/assets/stylesheets
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/actioncable-5.1.1/lib/assets/compiled
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/actionview-5.1.1/lib/assets/compiled
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/adhityavadivel/IdolDraft/node_modules
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.6/assets/stylesheets
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.6/assets/javascripts
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.6/assets/fonts
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.6/assets/images):
+     6:   <%= favicon_link_tag asset_path('IdolDraftFaviconSmall.png'), :rel => 'icon', :type => "image/x-icon" %>
+     7:   <%= stylesheet_link_tag    'application', media: 'all',
+     8:                              'data-turbolinks-track': 'reload' %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   <%= render 'layouts/shim' %>
+    11: </head>
+    12: <body>
+  
+app/assets/javascripts/application.js:4
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__4007097671269184155_70154608957080'
+Started GET "/about" for ::1 at 2018-05-28 11:53:10 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (3.4ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 4090ms (Views: 4080.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:53:16 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 97ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:53:17 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.8ms)
+Started GET "/about" for ::1 at 2018-05-28 11:53:17 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+Started GET "/about" for ::1 at 2018-05-28 11:53:17 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 377ms (Views: 373.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:53:17 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+Started GET "/about" for ::1 at 2018-05-28 11:53:17 -0700
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 475ms (Views: 470.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 226ms (Views: 222.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 377ms (Views: 374.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:53:17 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.4ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 236ms (Views: 231.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 169ms (Views: 166.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:53:19 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 98ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:53:26 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery4' with type 'application/javascript'
+Checked in these paths: 
+  /Users/adhityavadivel/IdolDraft/app/assets/config
+  /Users/adhityavadivel/IdolDraft/app/assets/distributions
+  /Users/adhityavadivel/IdolDraft/app/assets/images
+  /Users/adhityavadivel/IdolDraft/app/assets/javascripts
+  /Users/adhityavadivel/IdolDraft/app/assets/spreadsheets
+  /Users/adhityavadivel/IdolDraft/app/assets/stylesheets
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/actioncable-5.1.1/lib/assets/compiled
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/actionview-5.1.1/lib/assets/compiled
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/adhityavadivel/IdolDraft/node_modules
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.6/assets/stylesheets
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.6/assets/javascripts
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.6/assets/fonts
+  /Users/adhityavadivel/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.6/assets/images):
+     6:   <%= favicon_link_tag asset_path('IdolDraftFaviconSmall.png'), :rel => 'icon', :type => "image/x-icon" %>
+     7:   <%= stylesheet_link_tag    'application', media: 'all',
+     8:                              'data-turbolinks-track': 'reload' %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   <%= render 'layouts/shim' %>
+    11: </head>
+    12: <body>
+  
+app/assets/javascripts/application.js:4
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1825826760768494056_70107263036500'
+Started GET "/about" for ::1 at 2018-05-28 11:53:32 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 60ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:54:03 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 119ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:54:34 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (2.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 55ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:54:42 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:56:18 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 74ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:56:37 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 67ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2018-05-28 11:57:08 -0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (3.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 65ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-28 11:57:11 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 76ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/line_distributions" for ::1 at 2018-05-28 11:59:05 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/app/views/static_pages/line_distributions.html.erb:60: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/static_pages/line_distributions.html.erb:60: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/line_distributions" for ::1 at 2018-05-28 12:00:09 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 57ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+

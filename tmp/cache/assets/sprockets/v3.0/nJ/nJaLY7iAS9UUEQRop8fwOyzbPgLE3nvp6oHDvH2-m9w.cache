@@ -1,0 +1,45 @@
+{:uriI"~file://app/assets/distributions/bigbang.yml?type=text/yaml&id=d5d11b16e7293523afb07033195ac4550f710aa5cf48ae800b704e247f5724b5:ET:load_pathI"app/assets/distributions;T:filenameI")app/assets/distributions/bigbang.yml;T:	nameI"bigbang;T:logical_pathI"bigbang.yml;T:content_typeI"text/yaml;T:sourceI"×---
+#Group Info
+group_name: "BIGBANG"
+songs_num: 3
+members_num: 5
+members:
+  1: "GDragon"
+  2: "TOP"
+  3: "Taeyang"
+  4: "Daesung"
+  5: "Seungri"
+
+#Song Details
+song_1:
+  id: 1
+  title: "Fantastic Baby"
+  GDragon: 46
+  TOP: 22
+  Taeyang: 17
+  Daesung: 8
+  Seungri: 8
+
+song_2:
+  id: 2
+  title: "Loser"
+  GDragon: 19
+  TOP: 19
+  Taeyang: 44
+  Daesung: 19
+  Seungri: 0
+
+song_3:
+  id: 3
+  title: "Last Dance"
+  GDragon: 20
+  TOP: 19
+  Taeyang: 29
+  Daesung: 16
+  Seungri: 17
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"7file-digest://app/assets/distributions/bigbang.yml;TTF:charsetI"
+utf-8;F:digest"%7îÛáío!Cî¬õžaâÖ{N@½p1"[˜áî#:lengthi×:dependencies_digest"%´:˜^zñôÈÐš—åÇ¾>\Ëçqˆ]žDyLýÙÒOŒ™:idI"Ed5d11b16e7293523afb07033195ac4550f710aa5cf48ae800b704e247f5724b5;F:
+mtimel+~V
+[
