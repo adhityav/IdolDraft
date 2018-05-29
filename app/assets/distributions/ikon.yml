@@ -18,12 +18,12 @@ song_1:
   title: "Rhythm Ta"
   B.I: 32
   Jay: 15
-  Song:6
+  Song: 6
   Bobby: 27
   DK: 6
   Ju-ne: 14
   Chan: 0
-  
+
 song_2:
   id: 2
   title: "Bling Bling"
@@ -34,7 +34,7 @@ song_2:
   DK: 4
   Ju-ne: 13
   Chan: 9
-  
+
 song_3:
   id: 3
   title: "Apology"

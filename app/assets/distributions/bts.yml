@@ -7,7 +7,7 @@ members:
   1: "RM"
   2: "Jin"
   3: "Suga"
-  4: "JHope"
+  4: "J-Hope"
   5: "Jimin"
   6: "V"
   7: "Jungkook"
@@ -19,7 +19,7 @@ song_1:
   RM: 11
   Jin: 13
   Suga: 9
-  JHope: 9
+  J-Hope: 9
   Jimin: 22
   V: 13
   Jungkook: 23
@@ -30,7 +30,7 @@ song_2:
   RM: 16
   Jin: 6
   Suga: 13
-  JHope: 8
+  J-Hope: 8
   Jimin: 18
   V: 11
   Jungkook: 28
@@ -41,7 +41,7 @@ song_3:
   RM: 34
   Jin: 3
   Suga: 14
-  JHope: 10
+  J-Hope: 10
   Jimin: 9
   V: 3
   Jungkook: 26

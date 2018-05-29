@@ -1,27 +1,51 @@
 <% provide(:title, "Line Distributions") %>
 
 <h3>Idol Draft Line Distributions</h3>
-<p>Current list for test server</p>
-
+<p>Current list for test server as of 5.28.2018
 </br>
+<i>All percentages are rounded to the nearest whole number.</i></p>
 
 <%
   require 'yaml'
   Dir.glob("#{Rails.root}/app/assets/distributions/*.yml") do |f|
   file = YAML.load_file(f)
 %>
-  <h4><%= file['group_name'] %></h4> </br>
+
+  <hr>
+  <h4><center><%= file['group_name'] %></center></h4>
   <% for i in 1..file['songs_num'] %>
 
-    <h5> &nbsp &nbsp <%= file["song_#{i}"]['title'] %></h5>
-    <% for j in 1..file['members_num'] %>
-
-      <% name = file['members'][j] %>
-        <p> &nbsp &nbsp &nbsp &nbsp <%= "#{name}: " %>
-          <%= file["song_#{i}"]["#{name}"] %>
-          <%= 'points' %>
-        </p>
+  <table>
+    <tr bgcolor=#bfbfbf>
+      <th>Idol</th>
+      <th>Score</th>
+    </tr>
+    <tr>
+      <h5> &nbsp &nbsp <%= file["song_#{i}"]['title'] %></h5>
+      <% for j in 1..file['members_num'] %>
+      <tr>
+        <% name = file['members'][j] %>
+        <td> <%= "#{name}" %></td>
+        <td> <%= file["song_#{i}"]["#{name}"] %>
+        <%= 'points' %> </td>
+      </tr>
     <% end %>
-    </br>
+  </table>
+  </br>
   <% end %>
-<% end %>
+  <% end %>
+</br>
+
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+  }
+</style>
