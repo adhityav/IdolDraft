@@ -1,19 +1,46 @@
 <% provide(:title, "Draft List") %>
 
 <h3>Idol Draft Official Rankings</h3>
-<p>Master prospect list as of 5.11.2018</p>
+<p>Current list for test server as of 5.28.2018</p>
 
 <%
   require 'roo'
-  xlsx = Roo::Excelx.new(Rails.root.join("#{Rails.root}/app/assets/spreadsheets/Idol-Draft-Master-List-5-24.xlsx"))
+  xlsx = Roo::Excelx.new(Rails.root.join("#{Rails.root}/app/assets/spreadsheets/Idol-Draft-Test-Server-Ranks.xlsx"))
 %>
 
-<% i = 10 %>
-<% while xlsx.excelx_value(i, 'B') != nil %>
-  <p>
-    <%= xlsx.excelx_value(i, 'B') %> &nbsp &nbsp
-    <%= xlsx.excelx_value(i, 'C') %> &nbsp &nbsp
-    <%= xlsx.excelx_value(i, 'D') %> &nbsp &nbsp
-  </p>
-  <% i += 1 %>
-<% end %>
+<table>
+  <tr bgcolor=#add8e6>
+    <th>Rank</th>
+    <th>Idol</th>
+    <th>Group</th>
+    <th>Role</th>
+    <th>Specialization</th>
+  </tr>
+  <tr>
+    <% i = 5 %>
+    <% while xlsx.excelx_value(i, 'B') != nil %>
+      <tr>
+        <td> <%= xlsx.excelx_value(i, 'B') %> </td>
+        <td> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <td> <%= xlsx.excelx_value(i, 'D') %> </td>
+        <td> <%= xlsx.excelx_value(i, 'E') %> </td>
+        <td> <%= xlsx.excelx_value(i, 'F') %> </td>
+      </tr>
+      <% i += 1 %>
+    <% end %>
+  </tr>
+</table>
+
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid lightgray;
+    text-align: left;
+    padding: 8px;
+  }
+</style>

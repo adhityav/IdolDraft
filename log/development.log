@@ -5322,3 +5322,205 @@ Processing by StaticPagesController#line_distributions as HTML
 Completed 200 OK in 88ms (Views: 84.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/line_distributions" for ::1 at 2018-05-28 17:13:32 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (12.3ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    13:   <h4><%= file['group_name'] %></h4> </br>
+    14:   <% for i in 1..file['songs_num'] %>
+    15: 
+    16:     <h5> &nbsp &nbsp <%= file["song_#{i}"]['title'] %></h5>
+    17:     <% for j in 1..file['members_num'] %>
+    18: 
+    19:       <% name = file['members'][j] %>
+  
+app/views/static_pages/line_distributions.html.erb:16:in `block (2 levels) in _app_views_static_pages_line_distributions_html_erb___185614139632118661_70289095890240'
+app/views/static_pages/line_distributions.html.erb:14:in `block in _app_views_static_pages_line_distributions_html_erb___185614139632118661_70289095890240'
+app/views/static_pages/line_distributions.html.erb:10:in `glob'
+app/views/static_pages/line_distributions.html.erb:10:in `_app_views_static_pages_line_distributions_html_erb___185614139632118661_70289095890240'
+Started GET "/line_distributions" for ::1 at 2018-05-28 17:16:03 -0700
+Processing by StaticPagesController#line_distributions as HTML
+  Rendering static_pages/line_distributions.html.erb within layouts/application
+  Rendered static_pages/line_distributions.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 676ms (Views: 673.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:16:07 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (69.0ms)
+  Rendered layouts/_shim.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 156ms (Views: 153.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:16:34 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (65.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 136ms (Views: 134.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:17:03 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (49.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 106ms (Views: 104.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:44:59 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/adhityavadivel/IdolDraft/app/views/static_pages/draft_list.html.erb:36: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/views/static_pages/draft_list.html.erb:36: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/draft_list" for ::1 at 2018-05-28 17:45:20 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (58.5ms)
+  Rendered layouts/_shim.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 141ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:45:32 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (77.3ms)
+  Rendered layouts/_shim.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 150ms (Views: 148.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:45:33 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (77.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (2.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 188ms (Views: 185.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:46:49 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (45.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 115ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:48:14 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (file /Users/adhityavadivel/IdolDraft/app/assets/spreadsheets/Idol-Draft-Test-Server-Ranks.xlsx does not exist):
+     5: 
+     6: <%
+     7:   require 'roo'
+     8:   xlsx = Roo::Excelx.new(Rails.root.join("#{Rails.root}/app/assets/spreadsheets/Idol-Draft-Test-Server-Ranks.xlsx"))
+     9: %>
+    10: 
+    11: <table>
+  
+app/views/static_pages/draft_list.html.erb:8:in `new'
+app/views/static_pages/draft_list.html.erb:8:in `_app_views_static_pages_draft_list_html_erb___3489018780855465610_70289098075560'
+Started GET "/draft_list" for ::1 at 2018-05-28 17:50:48 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (42.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 102ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:51:20 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (75.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 157ms (Views: 154.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:51:44 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (67.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 130ms (Views: 127.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:52:21 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (48.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 123ms (Views: 120.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:52:57 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (48.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 98ms (Views: 95.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:52:59 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (41.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 95ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/draft_list" for ::1 at 2018-05-28 17:53:29 -0700
+Processing by StaticPagesController#draft_list as HTML
+  Rendering static_pages/draft_list.html.erb within layouts/application
+  Rendered static_pages/draft_list.html.erb within layouts/application (41.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 113ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+
+

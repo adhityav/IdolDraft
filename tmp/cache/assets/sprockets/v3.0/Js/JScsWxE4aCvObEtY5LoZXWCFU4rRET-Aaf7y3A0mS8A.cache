@@ -1,0 +1,15 @@
+{:uriI"yfile://app/assets/config/kard.yml?type=text/yaml&id=750731e409955bf1daf201df608469f1a8d1451cdf92395e5b06046248ee8be8:ET:load_pathI"app/assets/config;T:filenameI"app/assets/config/kard.yml;T:	nameI"	kard;T:logical_pathI"kard.yml;T:content_typeI"text/yaml;T:sourceI"m---
+#Group Info
+group_name: "K.A.R.D"
+songs_num: 3
+members_num: 4
+members:
+  1: 
+
+#Song Details
+song_1:
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"-file-digest://app/assets/config/kard.yml;TTF:charsetI"
+utf-8;F:digest"%×ŒÒY“LÈ,1×ž.Øšm¨ÐØ&ÇHÒDá%b:lengthim:dependencies_digest"%lVWð«–›í»·Ê"þÌ«žÑ>HTÏû†’+›ªh:idI"E750731e409955bf1daf201df608469f1a8d1451cdf92395e5b06046248ee8be8;F:
+mtimel+ü”[

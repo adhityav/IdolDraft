@@ -1,0 +1,15 @@
+{:uriI"yfile://app/assets/config/exid.yml?type=text/yaml&id=e6e92b43408d977357c59273b8b8bcb48f84a38a88f1264f75f6256b9d7bc01d:ET:load_pathI"app/assets/config;T:filenameI"app/assets/config/exid.yml;T:	nameI"	exid;T:logical_pathI"exid.yml;T:content_typeI"text/yaml;T:sourceI"i---
+#Group Info
+group_name: "EXID"
+songs_num: 3
+members_num: 4
+members:
+  1:
+
+#Song Details
+song_1:
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"-file-digest://app/assets/config/exid.yml;TTF:charsetI"
+utf-8;F:digest"%TU/£ ül¸Ğ=ÖÁ&0¹Óİ½5kÓè:lengthii:dependencies_digest"%­—òúY’xÄ¨º÷xîA÷¡A$˜Öİ†7êêFÌ’:idI"Ee6e92b43408d977357c59273b8b8bcb48f84a38a88f1264f75f6256b9d7bc01d;F:
+mtimel+”[

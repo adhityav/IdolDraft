@@ -1,0 +1,16 @@
+{:uriI"zfile://app/assets/config/twice.yml?type=text/yaml&id=e9533a70c56a5cee7beee5a0b5c1999e3323a28207f72761b69e19deeb71372e:ET:load_pathI"app/assets/config;T:filenameI" app/assets/config/twice.yml;T:	nameI"
+twice;T:logical_pathI"twice.yml;T:content_typeI"text/yaml;T:sourceI"j---
+#Group Info
+group_name: "TWICE"
+songs_num: 3
+members_num: 9
+members:
+  1:
+
+#Song Details
+song_1:
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI".file-digest://app/assets/config/twice.yml;TTF:charsetI"
+utf-8;F:digest"%Âè]íÒ/3ÀIàöì‡IÑô¸±d—­é¾<T¾[Äü:lengthij:dependencies_digest"%? ‹Ìz›Jâ ?ˆaW€Ö·ËšÏ€|YÇ®ö)~pF:idI"Ee9533a70c56a5cee7beee5a0b5c1999e3323a28207f72761b69e19deeb71372e;F:
+mtimel+•[

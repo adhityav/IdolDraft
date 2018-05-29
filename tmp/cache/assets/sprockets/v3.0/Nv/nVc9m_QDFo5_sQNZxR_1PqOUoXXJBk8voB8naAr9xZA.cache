@@ -1,0 +1,16 @@
+{:uriI"yfile://app/assets/config/got7.yml?type=text/yaml&id=fc75c588263bcfabeb586118209f406470e8c6c977dbd5cb9c9f0e350be1e372:ET:load_pathI"app/assets/config;T:filenameI"app/assets/config/got7.yml;T:	nameI"	got7;T:logical_pathI"got7.yml;T:content_typeI"text/yaml;T:sourceI"j---
+#Group Info
+group_name: "GOT7"
+songs_num: 3
+members_num: 7
+members:
+  1: 
+
+#Song Details
+song_1:
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"-file-digest://app/assets/config/got7.yml;TTF:charsetI"
+utf-8;F:digest"%Òˇøqr›µNsÿ›ó]c”:êVÓtµ›@‚§¡b∫¨:lengthij:dependencies_digest"%R^0¬≠µÿÃ“cîîòìmà1›<§!ƒ
+&‰IÃ–¸:idI"Efc75c588263bcfabeb586118209f406470e8c6c977dbd5cb9c9f0e350be1e372;F:
+mtimel+î[
