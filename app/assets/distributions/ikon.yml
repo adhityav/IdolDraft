@@ -2,9 +2,46 @@
 #Group Info
 group_name: "iKON"
 songs_num: 3
-members_num:
+members_num: 7
 members:
-  1:
+  1: "B.I"
+  2: "Jay"
+  3: "Song"
+  4: "Bobby"
+  5: "DK"
+  6: "Ju-ne"
+  7: "Chan"
 
 #Song Details
 song_1:
+  id: 1
+  title: "Rhythm Ta"
+  B.I: 32
+  Jay: 15
+  Song:6
+  Bobby: 27
+  DK: 6
+  Ju-ne: 14
+  Chan: 0
+  
+song_2:
+  id: 2
+  title: "Bling Bling"
+  B.I: 37
+  Jay: 13
+  Song: 4
+  Bobby: 19
+  DK: 4
+  Ju-ne: 13
+  Chan: 9
+  
+song_3:
+  id: 3
+  title: "Apology"
+  B.I: 13
+  Jay: 20
+  Song: 6
+  Bobby: 13
+  DK: 9
+  Ju-ne: 33
+  Chan: 6
