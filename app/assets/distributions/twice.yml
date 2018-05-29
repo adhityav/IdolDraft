@@ -4,7 +4,52 @@ group_name: "TWICE"
 songs_num: 3
 members_num: 9
 members:
-  1:
+  1: "Jihyo"
+  2: "Nayeon"
+  3: "Jeongyeon"
+  4: "Momo"
+  5: "Sana"
+  6: "Mina"
+  7: "Dahyun" 
+  8: "Chaeyoung"
+  9: "Tzuyu"
 
 #Song Details
 song_1:
+  id: 1
+  title: "Like OOH-AHH"
+  Jihyo: 33
+  Nayeon: 25
+  Jeongyeon: 8
+  Momo: 5
+  Sana: 7
+  Mina: 11
+  Dahyun: 3
+  Chaeyoung: 3
+  Tzuyu: 6
+  
+song_2:
+  id: 2
+  title: "Knock Knock"
+  Jihyo: 20
+  Nayeon: 18
+  Jeongyeon: 14
+  Momo: 9
+  Sana: 7
+  Mina: 13
+  Dahyun: 6
+  Chaeyoung: 9
+  Tzuyu: 5
+  
+song_3:
+  id: 3
+  title: "Cheer Up"
+  Jihyo: 21
+  Nayeon: 28
+  Jeongyeon: 9
+  Momo: 6
+  Sana: 7
+  Mina: 11
+  Dahyun: 6
+  Chaeyoung: 6
+  Tzuyu: 7
