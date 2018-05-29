@@ -4,7 +4,44 @@ group_name: "GOT7"
 songs_num: 3
 members_num: 7
 members:
-  1: 
+  1: "JB"
+  2: "Mark"
+  3: "Jackson"
+  4: "Jinyoung"
+  5: "Youngjae"
+  6: "BamBam"
+  7: "Yugyeom"
 
 #Song Details
 song_1:
+  id: 1
+  title: "Fly"
+  JB: 16
+  Mark: 16
+  Jackson: 14
+  Jinyoung: 22
+  Youngjae: 14
+  BamBam: 7
+  Yugyeom: 11
+
+song_2:
+  id: 2
+  title: "If You Do"
+  JB: 26
+  Mark: 6
+  Jackson: 8
+  Jinyoung: 15
+  Youngjae: 27
+  BamBam: 8
+  Yugyeom: 12
+  
+song_3:
+  id: 3
+  title: "Hard Carry"
+  JB: 16
+  Mark: 13
+  Jackson: 12
+  Jinyoung: 18
+  Youngjae: 16
+  BamBam: 12
+  Yugyeom: 12
