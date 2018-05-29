@@ -2,9 +2,38 @@
 #Group Info
 group_name: "EXID"
 songs_num: 3
-members_num: 4
+members_num: 5
 members:
-  1:
+  1: "Solji"
+  2: "LE"
+  3: "Hani"
+  4: "Hyerin"
+  5: "Jeonghwa"
 
 #Song Details
-song_1:
+song_1: 
+  id: 1
+  title: "Hot Pink"
+  Solji: 23
+  LE: 20
+  Hani: 21
+  Hyerin: 17
+  Jeonghwa: 20
+  
+song_2:
+  id: 2
+  title: "Up & Down"
+  Solji: 17
+  LE: 45
+  Hani: 15
+  Hyerin: 16
+  Jeonghwa: 8
+  
+song_3:
+  id: 3
+  title: "Ah Yeah"
+  Solji: 20
+  LE: 37
+  Hani: 20
+  Hyerin: 13
+  Jeonghwa: 10
