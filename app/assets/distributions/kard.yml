@@ -4,7 +4,32 @@ group_name: "K.A.R.D"
 songs_num: 3
 members_num: 4
 members:
-  1: 
+  1: "JSeph"
+  2: "BM"
+  3: "Somin"
+  4: "Jiwoo"
 
 #Song Details
 song_1:
+  id: 1
+  title: "Don't Recall"
+  JSeph: 15
+  BM: 16
+  Somin: 39
+  Jiwoo: 29
+
+song_2:
+  id: 2
+  title: "Hola Hola"
+  JSeph: 19
+  BM: 28
+  Somin: 27
+  Jiwoo: 26
+  
+song_3:
+  id: 3
+  title: "Rumor"
+  JSeph: 28
+  BM: 29
+  Somin: 24
+  Jiwoo: 19
