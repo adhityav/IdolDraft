@@ -1,0 +1,62 @@
+{:uriI"{file://app/assets/distributions/exid.yml?type=text/yaml&id=e5bcf866affacfc04c7ba20e69b8c40b6522966908ef40645edb1d1d47912e1e:ET:load_pathI"app/assets/distributions;T:filenameI"&app/assets/distributions/exid.yml;T:	nameI"	exid;T:logical_pathI"exid.yml;T:content_typeI"text/yaml;T:sourceI"z---
+#Group Info
+group_name: "EXID"
+songs_num: 5
+members_num: 5
+members:
+  1: "Solji"
+  2: "LE"
+  3: "Hani"
+  4: "Hyerin"
+  5: "Jeonghwa"
+
+#Song Details
+song_1:
+  id: 1
+  title: "Hot Pink"
+  Solji: 23
+  LE: 20
+  Hani: 21
+  Hyerin: 17
+  Jeonghwa: 20
+
+song_2:
+  id: 2
+  title: "Up & Down"
+  Solji: 17
+  LE: 45
+  Hani: 15
+  Hyerin: 16
+  Jeonghwa: 8
+
+song_3:
+  id: 3
+  title: "Ah Yeah"
+  Solji: 20
+  LE: 37
+  Hani: 20
+  Hyerin: 13
+  Jeonghwa: 10
+
+song_4:
+  id: 4
+  title: "Every Night"
+  Solji: 36
+  LE: 30
+  Hani: 20
+  Hyerin: 5
+  Jeonghwa: 10
+
+song_5:
+  id: 5
+  title: "L.I.E"
+  Solji: 20
+  LE: 20
+  Hani: 24
+  Hyerin: 24
+  Jeonghwa: 12
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"4file-digest://app/assets/distributions/exid.yml;TTF:charsetI"
+utf-8;F:digest"%½¥]e*ÈŠFZ¨˜ÚÓ²ÏZ´¥ÉBÓ4§M˜ËÖ:lengthiz:dependencies_digest"%–L(e³‰<‰[)¾sH¨RÙå!=gÿà	i:idI"Ee5bcf866affacfc04c7ba20e69b8c40b6522966908ef40645edb1d1d47912e1e;F:
+mtimel+ŸÒ[

@@ -1,0 +1,41 @@
+{:uriI"{file://app/assets/distributions/kard.yml?type=text/yaml&id=40c12671a8370f740d79f5187c1563904d5f6fa794c28bf76fd16a104adf5a34:ET:load_pathI"app/assets/distributions;T:filenameI"&app/assets/distributions/kard.yml;T:	nameI"	kard;T:logical_pathI"kard.yml;T:content_typeI"text/yaml;T:sourceI"„---
+#Group Info
+group_name: "K.A.R.D"
+songs_num: 3
+members_num: 4
+members:
+  1: "JSeph"
+  2: "BM"
+  3: "Somin"
+  4: "Jiwoo"
+
+#Song Details
+song_1:
+  id: 1
+  title: "Don't Recall"
+  JSeph: 15
+  BM: 16
+  Somin: 39
+  Jiwoo: 29
+
+song_2:
+  id: 2
+  title: "Hola Hola"
+  JSeph: 19
+  BM: 28
+  Somin: 27
+  Jiwoo: 26
+  
+song_3:
+  id: 3
+  title: "Rumor"
+  JSeph: 28
+  BM: 29
+  Somin: 24
+  Jiwoo: 19
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"4file-digest://app/assets/distributions/kard.yml;TTF:charsetI"
+utf-8;F:digest"%ƒü€væx
+Y3¨—êéB±	)±²ÕÖö=…(l/æÁ:lengthi„:dependencies_digest"%¸(íôwGŸvÄ»‘°9ÄçÜ`Â,¦VMà1™:idI"E40c12671a8370f740d79f5187c1563904d5f6fa794c28bf76fd16a104adf5a34;F:
+mtimel+gé[

@@ -1,0 +1,60 @@
+---
+group_1:
+  file_id: 1
+  file_name: '2ne1'
+
+group_2:
+  file_id: 2
+  file_name: 'bigbang'
+
+group_3:
+  file_id: 3
+  file_name: 'blackpink'
+
+group_4:
+  file_id: 4
+  file_name: 'bts'
+
+group_5:
+  file_id: 5
+  file_name: 'exid'
+
+group_6:
+  file_id: 6
+  file_name: 'gfriend'
+
+group_7:
+  file_id: 7
+  file_name: 'got7'
+
+group_8:
+  file_id: 8
+  file_name: 'ikon'
+
+group_9:
+  file_id: 9
+  file_name: 'kard'
+
+group_10:
+  file_id: 10
+  file_name: 'mamamoo'
+
+group_11:
+  file_id: 11
+  file_name: 'monstax'
+
+group_12:
+  file_id: 12
+  file_name: 'redvelvet'
+
+group_13:
+  file_id: 13
+  file_name: 'twice'
+
+group_14:
+  file_id: 14
+  file_name: 'vixx'
+
+group_15:
+  file_id: 15
+  file_name: 'winner'

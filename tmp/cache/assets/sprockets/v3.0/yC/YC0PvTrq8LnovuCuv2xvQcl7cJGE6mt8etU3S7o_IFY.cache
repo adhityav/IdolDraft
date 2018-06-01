@@ -1,0 +1,74 @@
+{:uriI"~file://app/assets/distributions/monstax.yml?type=text/yaml&id=e4d4cbdee87e812516f6799b9205983c9b61030e4366f0e9f4a981d2581639e5:ET:load_pathI"app/assets/distributions;T:filenameI")app/assets/distributions/monstax.yml;T:	nameI"monstax;T:logical_pathI"monstax.yml;T:content_typeI"text/yaml;T:sourceI"+---
+#Group Info
+group_name: "Monsta X"
+songs_num: 5
+members_num: 7
+members:
+  1: "Shownu"
+  2: "Wonho"
+  3: "Minhyuk"
+  4: "Kihyun"
+  5: "Hyungwon"
+  6: "Jooheon"
+  7: "I.M"
+
+#Song Details
+song_1:
+  id: 1
+  title: "Hero"
+  Shownu: 13
+  Wonho: 6
+  Minhyuk: 5
+  Kihyun: 35
+  Hyungwon: 7
+  Jooheon: 11
+  I.M: 24
+
+song_2:
+  id: 2
+  title: "Dramarama"
+  Shownu: 13
+  Wonho: 13
+  Minhyuk: 4
+  Kihyun: 34
+  Hyungwon: 7
+  Jooheon: 16
+  I.M: 14
+
+song_3:
+  id: 3
+  title: "Beautiful"
+  Shownu: 9
+  Wonho: 11
+  Minhyuk: 9
+  Kihyun: 29
+  Hyungwon: 13
+  Jooheon: 19
+  I.M: 11
+
+song_4:
+  id: 4
+  title: "All In"
+  Shownu: 16
+  Wonho: 4
+  Minhyuk: 7
+  Kihyun: 39
+  Hyungwon: 8
+  Jooheon: 13
+  I.M: 13
+
+song_5:
+  id: 5
+  title: "Trespass"
+  Shownu: 10
+  Wonho: 2
+  Minhyuk: 2
+  Kihyun: 15
+  Hyungwon: 4
+  Jooheon: 52
+  I.M: 15
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"7file-digest://app/assets/distributions/monstax.yml;TTF:charsetI"
+utf-8;F:digest"%˜Ø<yêÃ©ŽÞÝÊG—	>÷ßJÂ:~wãâ7—Uë:lengthi+:dependencies_digest"%i¢4`­¯×ài©Ã„u:I'«Ø0V3©…-ni0(:idI"Ee4d4cbdee87e812516f6799b9205983c9b61030e4366f0e9f4a981d2581639e5;F:
+mtimel+ŸÒ[

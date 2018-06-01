@@ -1,0 +1,44 @@
+{:uriI"{file://app/assets/distributions/exid.yml?type=text/yaml&id=c06f8a8c4c0a392d48aebf3645358f7d06996936fffb47b80195121718eb66f9:ET:load_pathI"app/assets/distributions;T:filenameI"&app/assets/distributions/exid.yml;T:	nameI"	exid;T:logical_pathI"exid.yml;T:content_typeI"text/yaml;T:sourceI"¾---
+#Group Info
+group_name: "EXID"
+songs_num: 3
+members_num: 5
+members:
+  1: "Solji"
+  2: "LE"
+  3: "Hani"
+  4: "Hyerin"
+  5: "Jeonghwa"
+
+#Song Details
+song_1: 
+  id: 1
+  title: "Hot Pink"
+  Solji: 23
+  LE: 20
+  Hani: 21
+  Hyerin: 17
+  Jeonghwa: 20
+  
+song_2:
+  id: 2
+  title: "Up & Down"
+  Solji: 17
+  LE: 45
+  Hani: 15
+  Hyerin: 16
+  Jeonghwa: 8
+  
+song_3:
+  id: 3
+  title: "Ah Yeah"
+  Solji: 20
+  LE: 37
+  Hani: 20
+  Hyerin: 13
+  Jeonghwa: 10
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"4file-digest://app/assets/distributions/exid.yml;TTF:charsetI"
+utf-8;F:digest"%}|†´7VæÕžù{§ò5åÑ;d?»>žmGb	Ê†:lengthi¾:dependencies_digest"%p&9sŸ¨:”òi’¢˜ƒßTÛüº'o)Ø>¼8øP:idI"Ec06f8a8c4c0a392d48aebf3645358f7d06996936fffb47b80195121718eb66f9;F:
+mtimel+gé[

@@ -1,0 +1,62 @@
+{:uriI"}file://app/assets/distributions/winner.yml?type=text/yaml&id=6b1e17bd3a02ada9375c82fbadaa394890e0c7dcc0c01aca90ace64431935a4a:ET:load_pathI"app/assets/distributions;T:filenameI"(app/assets/distributions/winner.yml;T:	nameI"winner;T:logical_pathI"winner.yml;T:content_typeI"text/yaml;T:sourceI"}---
+#Group Info
+group_name: "WINNER"
+songs_num: 5
+members_num: 5
+members:
+  1: "Yoon"
+  2: "Jinu"
+  3: "Hoony"
+  4: "Mino"
+  5: "Taehyun"
+
+#Song Details
+song_1:
+  id: 1
+  title: "Sentimental"
+  Yoon: 26
+  Jinu: 17
+  Hoony: 15
+  Mino: 27
+  Taehyun: 24
+
+song_2:
+  id: 2
+  title: "Really Really"
+  Yoon: 53
+  Jinu: 22
+  Hoony: 13
+  Mino: 12
+  Taehyun: 0
+
+song_3:
+  id: 3
+  title: "Everyday"
+  Yoon: 34
+  Jinu: 12
+  Hoony: 22
+  Mino: 32
+  Taehyun: 0
+
+song_4:
+  id: 4
+  title: "Empty"
+  Yoon: 21
+  Jinu: 14
+  Hoony: 17
+  Mino: 31
+  Taehyun: 16
+
+song_5:
+  id: 5
+  title: "Color Ring"
+  Yoon: 25
+  Jinu: 19
+  Hoony: 10
+  Mino: 19
+  Taehyun: 28
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"6file-digest://app/assets/distributions/winner.yml;TTF:charsetI"
+utf-8;F:digest"%«Æyd›ï-kcŸ.À™$n˛U≈Ä¿áPäøo°07=ó:lengthi}:dependencies_digest"%◊ú†Õ≥x™¥„·=Â5Ô\∏i∞v®âI|…u˘“ç?“:idI"E6b1e17bd3a02ada9375c82fbadaa394890e0c7dcc0c01aca90ace64431935a4a;F:
+mtimel+ü“[
