@@ -1,0 +1,35 @@
+---
+#Group Info
+group_name: "EXO"
+songs_num: 5
+members_num: 12
+members:
+  1: "Suho"
+  2: "Xiumin"
+  3: "Lay"
+  4: "Baekhyun"
+  5: "Chen"
+  6: "Chanyeol"
+  7: "D.O"
+  8: "Kai"
+  9: "Sehun"
+  10: "Kris"
+  11: "Tao"
+  12: "Luhan"
+
+#Song Details
+song_1:
+  id: 1
+  title: ""
+  Suho: 
+  Xiumin: 
+  Lay: 
+  Baekhyun:
+  Chen: 
+  Chanyeol:
+  D.O: 
+  Kai: 
+  Sehun: 
+  Kris:
+  Tao:
+  Luhan:

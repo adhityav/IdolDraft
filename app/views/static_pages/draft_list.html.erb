@@ -3,64 +3,10 @@
 <h3>Idol Draft Official Rankings</h3>
 <p>Current list for test server as of 5.28.2018
 </br>
-<i>ALDP stands for Average Line Distribution Percentage</i></p>
+<i>ALDP stands for Average Line Distribution Percentage</i>
+</br>
+<i>Color coding if-blocks need to be put in a partial</i>
+</br>
+<i>Color code for group name will be changed to official primary color</i></p>
 
-<%
-  require 'roo'
-  xlsx = Roo::Excelx.new(Rails.root.join("#{Rails.root}/app/assets/spreadsheets/Idol-Draft-Test-Server-Ranks.xlsx"))
-%>
-
-<hr>
-<table>
-  <tr bgcolor=#bfbfbf>
-    <th>Rank</th>
-    <th>Idol</th>
-    <th>Group</th>
-    <th>Role</th>
-    <th>Spec</th>
-    <th>ALDP</th>
-  </tr>
-  <tr>
-    <% i = 5 %>
-    <% while xlsx.excelx_value(i, 'B') != nil %>
-      <tr>
-        <td> <%= xlsx.excelx_value(i, 'B') %> </td>
-        <td> <%= xlsx.excelx_value(i, 'C') %> </td>
-        <td> <%= xlsx.excelx_value(i, 'D') %> </td>
-
-        <% if xlsx.excelx_value(i, 'E') == 'Singer' then %>
-          <td style="background-color:#ffd83d;"> <%= xlsx.excelx_value(i, 'E') %> </td>
-        <% elsif xlsx.excelx_value(i, 'E') == 'Rapper' then %>
-          <td style="background-color:#6bd7ff;"> <%= xlsx.excelx_value(i, 'E') %> </td>
-        <% else %>
-          <td> <%= xlsx.excelx_value(i, 'E') %> </td>
-        <% end %>
-
-        <% if xlsx.excelx_value(i, 'F') == 'Leader' then %>
-          <td style="background-color:#dd7c77;"> <%= xlsx.excelx_value(i, 'F') %> </td>
-        <% elsif xlsx.excelx_value(i, 'F') == 'Maknae' then %>
-          <td style="background-color:#aee079;"> <%= xlsx.excelx_value(i, 'F') %> </td>
-        <% else %>
-          <td> <%= xlsx.excelx_value(i, 'F') %> </td>
-        <% end %>
-
-        <td> <%= sprintf('%.1f', xlsx.excelx_value(i, 'L')) %>% </td>
-      </tr>
-      <% i += 1 %>
-    <% end %>
-  </tr>
-</table>
-
-<style>
-  table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-  td, th {
-    border: 1px solid black;
-    text-align: center;
-    padding: 8px;
-  }
-</style>
+<%= render partial: "static_pages/draft_table" %>
