@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "WINNER"
-songs_num: 4
+songs_num: 5
 members_num: 5
 members:
   1: "Yoon"
@@ -46,3 +46,12 @@ song_4:
   Hoony: 17
   Mino: 31
   Taehyun: 16
+
+song_5:
+  id: 5
+  title: "Color Ring"
+  Yoon: 25
+  Jinu: 19
+  Hoony: 10
+  Mino: 19
+  Taehyun: 28

@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "GFriend"
-songs_num: 4
+songs_num: 5
 members_num: 6
 members:
   1: "Sowon"
@@ -51,3 +51,13 @@ song_4:
   Yuju: 25
   SinB: 19
   Umji: 12
+
+song_5:
+  id: 5
+  title: "Glass Bead"
+  Sowon: 9
+  Yerin: 16
+  Eunha: 13
+  Yuju: 35
+  SinB: 15
+  Umji: 11

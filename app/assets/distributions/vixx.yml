@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "VIXX"
-songs_num: 4
+songs_num: 5
 members_num: 6
 members:
   1: "N"
@@ -51,3 +51,13 @@ song_4:
   Ravi: 10
   Hongbin: 7
   Hyuk: 13
+
+song_5:
+  id: 5
+  title: "Error"
+  N: 15
+  Leo: 37
+  Ken: 23
+  Ravi: 10
+  Hongbin: 6
+  Hyuk: 10

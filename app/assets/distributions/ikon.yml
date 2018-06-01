@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "iKON"
-songs_num: 4
+songs_num: 5
 members_num: 7
 members:
   1: "B.I"
@@ -56,3 +56,14 @@ song_4:
   DK: 5
   Ju-ne: 9
   Chan: 5
+
+song_5:
+  id: 5
+  title: "#WYD"
+  B.I: 13
+  Jay: 27
+  Song: 5
+  Bobby: 11
+  DK: 8
+  Ju-ne: 28
+  Chan: 8

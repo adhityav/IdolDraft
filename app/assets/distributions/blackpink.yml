@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "BLACKPINK"
-songs_num: 4
+songs_num: 5
 members_num: 4
 members:
   1: "Jisoo"
@@ -41,3 +41,11 @@ song_4:
   Jennie: 29
   Rose: 25
   Lisa: 31
+
+song_5:
+  id: 5
+  title: "Stay"
+  Jisoo: 23
+  Jennie: 28
+  Rose: 37
+  Lisa: 12

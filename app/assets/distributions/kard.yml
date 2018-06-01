@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "K.A.R.D"
-songs_num: 4
+songs_num: 5
 members_num: 4
 members:
   1: "JSeph"
@@ -41,3 +41,11 @@ song_4:
   BM: 20
   Somin: 28
   Jiwoo: 31
+
+song_5:
+  id: 5
+  title: "Push & Pull"
+  JSeph: 19
+  BM: 19
+  Somin: 31
+  Jiwoo: 32

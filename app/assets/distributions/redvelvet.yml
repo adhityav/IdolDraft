@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "Red Velvet"
-songs_num: 4
+songs_num: 5
 members_num: 5
 members:
   1: "Irene"
@@ -46,3 +46,12 @@ song_4:
   Wendy: 17
   Joy: 31
   Yeri: 8
+
+song_5:
+  id: 5
+  title: "One of These Nights"
+  Irene: 5
+  Seulgi: 24
+  Wendy: 47
+  Joy: 19
+  Yeri: 5

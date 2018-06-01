@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "BIGBANG"
-songs_num: 4
+songs_num: 5
 members_num: 5
 members:
   1: "G.Dragon"
@@ -46,3 +46,12 @@ song_4:
   Taeyang: 17
   Daesung: 14
   Seungri: 11
+
+song_5:
+  id: 5
+  title: "Bae Bae"
+  G.Dragon: 27
+  T.O.P: 19
+  Taeyang: 18
+  Daesung: 18
+  Seungri: 18

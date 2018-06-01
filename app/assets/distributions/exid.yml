@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "EXID"
-songs_num: 4
+songs_num: 5
 members_num: 5
 members:
   1: "Solji"
@@ -46,3 +46,12 @@ song_4:
   Hani: 20
   Hyerin: 5
   Jeonghwa: 10
+
+song_5:
+  id: 5
+  title: "L.I.E"
+  Solji: 20
+  LE: 20
+  Hani: 24
+  Hyerin: 24
+  Jeonghwa: 12

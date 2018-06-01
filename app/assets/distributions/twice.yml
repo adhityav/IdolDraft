@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "TWICE"
-songs_num: 4
+songs_num: 5
 members_num: 9
 members:
   1: "Jihyo"
@@ -66,3 +66,16 @@ song_4:
   Dahyun: 10
   Chaeyoung: 6
   Tzuyu: 6
+
+song_5:
+  id: 5
+  title: "Truth"
+  Jihyo: 35
+  Nayeon: 30
+  Jeongyeon: 13
+  Momo: 1
+  Sana: 8
+  Mina: 6
+  Dahyun: 2
+  Chaeyoung: 5
+  Tzuyu: 1
