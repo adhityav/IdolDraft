@@ -3,10 +3,35 @@
 <h3>Idol Draft Line Distributions</h3>
 <p>Current list for test server as of 5.28.2018
 </br>
-<i>All percentages are rounded to the nearest whole number.</i></p>
+<i>All percentages are rounded to the nearest whole number. TODO: Add links to each songs YouTube MV</i></p>
+<hr>
 
 <%
   require 'yaml'
+
+  groupLimit = 15   - 1  #automate this later
+  songLimit = 5     - 1  #automate this later
+
+  groupNum = Random.rand(groupLimit) + 1
+  songNum = Random.rand(songLimit) + 1
+
+  list1 = YAML.load_file("#{Rails.root}/app/assets/config/bandList.yml")
+  name_of_band = list1["group_#{groupNum}"]['file_name']
+  list2 = YAML.load_file("#{Rails.root}/app/assets/distributions/#{name_of_band}.yml")
+  name_of_band = list2["group_name"]
+  name_of_song = list2["song_#{songNum}"]['title']
+%>
+
+</br>
+<div align="left">
+  <strong><font size="4"> Current Song </font> </br></strong>
+  <i><font size="5" color="#ba1705"> <%= name_of_song %> </font></i>
+  <font size="5"> - </font>
+  <font size="5" color="#367ced"> <%= name_of_band %> </font>
+</div>
+</br>
+
+<%
   Dir.glob("#{Rails.root}/app/assets/distributions/*.yml") do |f|
   file = YAML.load_file(f)
 %>
@@ -33,7 +58,7 @@
   </table>
   </br>
   <% end %>
-  <% end %>
+<% end %>
 </br>
 
 <style>

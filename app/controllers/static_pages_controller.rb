@@ -13,4 +13,8 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
+  def generate_number
+    puts Random.rand(5) #return
+  end
+
 end

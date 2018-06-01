@@ -1,0 +1,75 @@
+{:uriI"file://app/assets/distributions/bts.yml?type=text/yaml&id=372e8cfed1637666ba6c101475d954017fa47f10eafb4ffe9e151b6e166e26ba:ET:load_pathI"app/assets/distributions;T:filenameI"%app/assets/distributions/bts.yml;T:	nameI"bts;T:logical_pathI"bts.yml;T:content_typeI"text/yaml;T:sourceI"ß---
+#Group Info
+group_name: "BTS"
+songs_num: 5
+members_num: 7
+members:
+  1: "RM"
+  2: "Jin"
+  3: "Suga"
+  4: "J-Hope"
+  5: "Jimin"
+  6: "V"
+  7: "Jungkook"
+
+#Song Details
+song_1:
+  id: 1
+  title: "Save Me"
+  RM: 11
+  Jin: 13
+  Suga: 9
+  J-Hope: 9
+  Jimin: 22
+  V: 13
+  Jungkook: 23
+
+song_2:
+  id: 2
+  title: "Dope"
+  RM: 16
+  Jin: 6
+  Suga: 13
+  J-Hope: 8
+  Jimin: 18
+  V: 11
+  Jungkook: 28
+
+song_3:
+  id: 3
+  title: "No More Dream"
+  RM: 34
+  Jin: 3
+  Suga: 14
+  J-Hope: 10
+  Jimin: 9
+  V: 3
+  Jungkook: 26
+
+song_4:
+  id: 4
+  title: "Fake Love"
+  RM: 10
+  Jin: 20
+  Suga: 5
+  J-Hope: 5
+  Jimin: 23
+  V: 14
+  Jungkook: 23
+
+song_5:
+  id: 5
+  title: "Not Today"
+  RM: 28
+  Jin: 2
+  Suga: 11
+  J-Hope: 7
+  Jimin: 5
+  V: 16
+  Jungkook: 32
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"3file-digest://app/assets/distributions/bts.yml;TTF:charsetI"
+utf-8;F:digest"%*†GŠ¡ÄÀ²çò¬(:-ˆsüWXµó
+v“À³yJL:lengthiß:dependencies_digest"%XyàåË4Æv5bóô¾øVs2ÙgméìQ©ds:idI"E372e8cfed1637666ba6c101475d954017fa47f10eafb4ffe9e151b6e166e26ba;F:
+mtimel+ŸÒ[

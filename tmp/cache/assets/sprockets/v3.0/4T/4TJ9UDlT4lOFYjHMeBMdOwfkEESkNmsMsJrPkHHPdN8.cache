@@ -1,0 +1,56 @@
+{:uriI"~file://app/assets/distributions/mamamoo.yml?type=text/yaml&id=475a40553ac56bf96d62e388cb82c1c8c40e44609fd1212abaf4c0a31843faa9:ET:load_pathI"app/assets/distributions;T:filenameI")app/assets/distributions/mamamoo.yml;T:	nameI"mamamoo;T:logical_pathI"mamamoo.yml;T:content_typeI"text/yaml;T:sourceI"c---
+#Group Info
+group_name: "MAMAMOO"
+songs_num: 5
+members_num: 4
+members:
+  1: "Solar"
+  2: "Moonbyul"
+  3: "Wheein"
+  4: "Hwasa"
+
+#Song Details
+song_1:
+  id: 1
+  title: "DÃ©calcomanie"
+  Solar: 30
+  Moonbyul: 12
+  Wheein: 33
+  Hwasa: 25
+
+song_2:
+  id: 2
+  title: "I Miss You"
+  Solar: 35
+  Moonbyul: 7
+  Wheein: 37
+  Hwasa: 21
+
+song_3:
+  id: 3
+  title: "Piano Man"
+  Solar: 36
+  Moonbyul: 22
+  Wheein: 20
+  Hwasa: 23
+
+song_4:
+  id: 4
+  title: "Taller Than You"
+  Solar: 14
+  Moonbyul: 23
+  Wheein: 34
+  Hwasa: 29
+
+song_5:
+  id: 5
+  title: "You're The Best"
+  Solar: 34
+  Moonbyul: 10
+  Wheein: 26
+  Hwasa: 29
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"7file-digest://app/assets/distributions/mamamoo.yml;TTF:charsetI"
+utf-8;F:digest"%Sp×¬Ìh~G¢=û%—¿Æj¬¡~þ”Õp `Òj´!:lengthic:dependencies_digest"% ô¼xÉ„0¿ië?-^ -¨q¬¦Hîûžd£€pÒz:idI"E475a40553ac56bf96d62e388cb82c1c8c40e44609fd1212abaf4c0a31843faa9;F:
+mtimel+ŸÒ[

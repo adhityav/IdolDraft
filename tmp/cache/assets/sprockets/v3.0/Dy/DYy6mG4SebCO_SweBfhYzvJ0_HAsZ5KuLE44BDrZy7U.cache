@@ -1,0 +1,61 @@
+{:uriI"|file://app/assets/distributions/twice.yml?type=text/yaml&id=fb5c123597083b8a3ca87748720fb867db19440607be131f24888f9efea268fd:ET:load_pathI"app/assets/distributions;T:filenameI"'app/assets/distributions/twice.yml;T:	nameI"
+twice;T:logical_pathI"twice.yml;T:content_typeI"text/yaml;T:sourceI"–---
+#Group Info
+group_name: "TWICE"
+songs_num: 3
+members_num: 9
+members:
+  1: "Jihyo"
+  2: "Nayeon"
+  3: "Jeongyeon"
+  4: "Momo"
+  5: "Sana"
+  6: "Mina"
+  7: "Dahyun" 
+  8: "Chaeyoung"
+  9: "Tzuyu"
+
+#Song Details
+song_1:
+  id: 1
+  title: "Like OOH-AHH"
+  Jihyo: 33
+  Nayeon: 25
+  Jeongyeon: 8
+  Momo: 5
+  Sana: 7
+  Mina: 11
+  Dahyun: 3
+  Chaeyoung: 3
+  Tzuyu: 6
+  
+song_2:
+  id: 2
+  title: "Knock Knock"
+  Jihyo: 20
+  Nayeon: 18
+  Jeongyeon: 14
+  Momo: 9
+  Sana: 7
+  Mina: 13
+  Dahyun: 6
+  Chaeyoung: 9
+  Tzuyu: 5
+  
+song_3:
+  id: 3
+  title: "Cheer Up"
+  Jihyo: 21
+  Nayeon: 28
+  Jeongyeon: 9
+  Momo: 6
+  Sana: 7
+  Mina: 11
+  Dahyun: 6
+  Chaeyoung: 6
+  Tzuyu: 7
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"5file-digest://app/assets/distributions/twice.yml;TTF:charsetI"
+utf-8;F:digest"%@Èád –¼¢§W´Ä‘§|‰B Zªþ}{¥æ¥a:lengthi–:dependencies_digest"%Ñ¤7*x0Ó+‘O­f ®-.€cå”ââ[É<­?Ò:idI"Efb5c123597083b8a3ca87748720fb867db19440607be131f24888f9efea268fd;F:
+mtimel+gé[
