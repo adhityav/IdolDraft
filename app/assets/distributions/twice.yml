@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "TWICE"
-songs_num: 3
+songs_num: 5
 members_num: 9
 members:
   1: "Jihyo"
@@ -10,7 +10,7 @@ members:
   4: "Momo"
   5: "Sana"
   6: "Mina"
-  7: "Dahyun" 
+  7: "Dahyun"
   8: "Chaeyoung"
   9: "Tzuyu"
 
@@ -27,7 +27,7 @@ song_1:
   Dahyun: 3
   Chaeyoung: 3
   Tzuyu: 6
-  
+
 song_2:
   id: 2
   title: "Knock Knock"
@@ -40,7 +40,7 @@ song_2:
   Dahyun: 6
   Chaeyoung: 9
   Tzuyu: 5
-  
+
 song_3:
   id: 3
   title: "Cheer Up"
@@ -53,3 +53,29 @@ song_3:
   Dahyun: 6
   Chaeyoung: 6
   Tzuyu: 7
+
+song_4:
+  id: 4
+  title: "TT"
+  Jihyo: 27
+  Nayeon: 14
+  Jeongyeon: 8
+  Momo: 7
+  Sana: 8
+  Mina: 14
+  Dahyun: 10
+  Chaeyoung: 6
+  Tzuyu: 6
+
+song_5:
+  id: 5
+  title: "Truth"
+  Jihyo: 35
+  Nayeon: 30
+  Jeongyeon: 13
+  Momo: 1
+  Sana: 8
+  Mina: 6
+  Dahyun: 2
+  Chaeyoung: 5
+  Tzuyu: 1

@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "Monsta X"
-songs_num: 3
+songs_num: 5
 members_num: 7
 members:
   1: "Shownu"
@@ -45,3 +45,25 @@ song_3:
   Hyungwon: 13
   Jooheon: 19
   I.M: 11
+
+song_4:
+  id: 4
+  title: "All In"
+  Shownu: 16
+  Wonho: 4
+  Minhyuk: 7
+  Kihyun: 39
+  Hyungwon: 8
+  Jooheon: 13
+  I.M: 13
+
+song_5:
+  id: 5
+  title: "Trespass"
+  Shownu: 10
+  Wonho: 2
+  Minhyuk: 2
+  Kihyun: 15
+  Hyungwon: 4
+  Jooheon: 52
+  I.M: 15

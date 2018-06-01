@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "MAMAMOO"
-songs_num: 3
+songs_num: 5
 members_num: 4
 members:
   1: "Solar"
@@ -33,3 +33,19 @@ song_3:
   Moonbyul: 22
   Wheein: 20
   Hwasa: 23
+
+song_4:
+  id: 4
+  title: "Taller Than You"
+  Solar: 14
+  Moonbyul: 23
+  Wheein: 34
+  Hwasa: 29
+
+song_5:
+  id: 5
+  title: "You're The Best"
+  Solar: 34
+  Moonbyul: 10
+  Wheein: 26
+  Hwasa: 29

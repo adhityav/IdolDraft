@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "2NE1"
-songs_num: 3
+songs_num: 5
 members_num: 4
 members:
   1: "CL"
@@ -33,3 +33,19 @@ song_3:
   Bom: 33
   Dara: 15
   Minzy: 26
+
+song_4:
+  id: 4
+  title: "Missing You"
+  CL: 30
+  Bom: 41
+  Dara: 9
+  Minzy: 20
+
+song_5:
+  id: 5
+  title: "Happy"
+  CL: 28
+  Bom: 34
+  Dara: 19
+  Minzy: 20

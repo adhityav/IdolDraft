@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "BTS"
-songs_num: 4
+songs_num: 5
 members_num: 7
 members:
   1: "RM"
@@ -56,3 +56,14 @@ song_4:
   Jimin: 23
   V: 14
   Jungkook: 23
+
+song_5:
+  id: 5
+  title: "Not Today"
+  RM: 28
+  Jin: 2
+  Suga: 11
+  J-Hope: 7
+  Jimin: 5
+  V: 16
+  Jungkook: 32

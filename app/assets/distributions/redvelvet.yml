@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "Red Velvet"
-songs_num: 3
+songs_num: 5
 members_num: 5
 members:
   1: "Irene"
@@ -37,3 +37,21 @@ song_3:
   Wendy: 22
   Joy: 25
   Yeri: 13
+
+song_4:
+  id: 4
+  title: "Ice Cream Cake"
+  Irene: 26
+  Seulgi: 19
+  Wendy: 17
+  Joy: 31
+  Yeri: 8
+
+song_5:
+  id: 5
+  title: "One of These Nights"
+  Irene: 5
+  Seulgi: 24
+  Wendy: 47
+  Joy: 19
+  Yeri: 5
