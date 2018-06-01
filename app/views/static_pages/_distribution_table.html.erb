@@ -1,0 +1,44 @@
+<%
+  Dir.glob("#{Rails.root}/app/assets/distributions/*.yml") do |f|
+  file = YAML.load_file(f)
+%>
+
+  <hr>
+  <h4><center><%= file['group_name'] %></center></h4>
+  <% for i in 1..file['songs_num'] %>
+
+  <table>
+    <tr bgcolor=#bfbfbf>
+      <th>Idol</th>
+      <th>Score</th>
+    </tr>
+    <tr>
+      <font size="4"> <%= file["song_#{i}"]['title'] %> </font>
+      <font size="2"> by <%= file['group_name'] %> </font>
+      <% for j in 1..file['members_num'] %>
+      <tr>
+        <% name = file['members'][j] %>
+        <td> <%= "#{name}" %></td>
+        <td> <%= file["song_#{i}"]["#{name}"] %>
+        <%= 'points' %> </td>
+      </tr>
+    <% end %>
+  </table>
+  </br>
+  <% end %>
+<% end %>
+</br>
+
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+  }
+</style>
