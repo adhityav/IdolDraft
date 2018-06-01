@@ -20,16 +20,80 @@ members:
 #Song Details
 song_1:
   id: 1
-  title: ""
-  Suho: 
-  Xiumin: 
-  Lay: 
-  Baekhyun:
-  Chen: 
-  Chanyeol:
-  D.O: 
-  Kai: 
-  Sehun: 
-  Kris:
-  Tao:
-  Luhan:
+  title: "Monster"
+  Suho: 9
+  Xiumin: 10 
+  Lay: 4
+  Baekhyun: 19
+  Chen: 17
+  Chanyeol: 11
+  D.O: 15
+  Kai: 10
+  Sehun: 8
+  Kris: 0
+  Tao: 0
+  Luhan: 0
+
+song_2:
+  id: 2
+  title: "Ko Ko Bop"
+  Suho: 15
+  Xiumin: 10
+  Lay: 0
+  Baekhyun: 16
+  Chen: 18
+  Chanyeol: 13
+  D.O: 14
+  Kai: 9
+  Sehun: 6 
+  Kris: 0
+  Tao: 0
+  Luhan: 0
+    
+song_3:
+  id: 3
+  title: "History"
+  Suho: 12
+  Xiumin: 7 
+  Lay: 9
+  Baekhyun: 21
+  Chen: 28
+  Chanyeol: 21
+  D.O: 18
+  Kai: 21
+  Sehun: 6
+  Kris: 20
+  Tao: 17
+  Luhan: 19
+
+song_4:
+  id: 4
+  title: "Growl"
+  Suho: 9
+  Xiumin: 5 
+  Lay: 3
+  Baekhyun: 12
+  Chen: 17
+  Chanyeol: 7
+  D.O: 13
+  Kai: 7
+  Sehun: 4 
+  Kris: 5
+  Tao: 6
+  Luhan: 11
+    
+song_5:
+  id: 5
+  title: "Love Me Right"
+  Suho: 10
+  Xiumin: 10
+  Lay: 6
+  Baekhyun: 13
+  Chen: 15
+  Chanyeol: 10
+  D.O: 21
+  Kai: 10
+  Sehun: 8
+  Kris: 0
+  Tao: 0
+  Luhan: 0
