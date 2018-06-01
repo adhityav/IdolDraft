@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "BTS"
-songs_num: 3
+songs_num: 4
 members_num: 7
 members:
   1: "RM"
@@ -45,3 +45,14 @@ song_3:
   Jimin: 9
   V: 3
   Jungkook: 26
+
+song_4:
+  id: 4
+  title: "Fake Love"
+  RM: 10
+  Jin: 20
+  Suga: 5
+  J-Hope: 5
+  Jimin: 23
+  V: 14
+  Jungkook: 23

@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "VIXX"
-songs_num: 3
+songs_num: 4
 members_num: 6
 members:
   1: "N"
@@ -41,3 +41,13 @@ song_3:
   Ravi: 20
   Hongbin: 13
   Hyuk: 11
+
+song_4:
+  id: 4
+  title: "Shangri-La"
+  N: 16
+  Leo: 25
+  Ken: 29
+  Ravi: 10
+  Hongbin: 7
+  Hyuk: 13
