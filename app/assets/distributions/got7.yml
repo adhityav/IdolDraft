@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "GOT7"
-songs_num: 3
+songs_num: 4
 members_num: 7
 members:
   1: "JB"
@@ -34,7 +34,7 @@ song_2:
   Youngjae: 27
   BamBam: 8
   Yugyeom: 12
-  
+
 song_3:
   id: 3
   title: "Hard Carry"
@@ -45,3 +45,14 @@ song_3:
   Youngjae: 16
   BamBam: 12
   Yugyeom: 12
+
+song_4:
+  id: 4
+  title: "Just Right"
+  JB: 18
+  Mark: 10
+  Jackson: 12
+  Jinyoung: 18
+  Youngjae: 22
+  BamBam: 12
+  Yugyeom: 8

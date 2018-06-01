@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "BLACKPINK"
-songs_num: 3
+songs_num: 4
 members_num: 4
 members:
   1: "Jisoo"
@@ -32,4 +32,12 @@ song_3:
   Jisoo: 18
   Jennie: 26
   Rose: 24
+  Lisa: 31
+
+song_4:
+  id: 4
+  title: "As If It's Your Last"
+  Jisoo: 15
+  Jennie: 29
+  Rose: 25
   Lisa: 31

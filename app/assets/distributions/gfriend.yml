@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "GFriend"
-songs_num: 3
+songs_num: 4
 members_num: 6
 members:
   1: "Sowon"
@@ -41,3 +41,13 @@ song_3:
   Yuju: 31
   SinB: 17
   Umji: 7
+
+song_4:
+  id: 4
+  title: "Me Gustas Tu"
+  Sowon: 6
+  Yerin: 12
+  Eunha: 26
+  Yuju: 25
+  SinB: 19
+  Umji: 12

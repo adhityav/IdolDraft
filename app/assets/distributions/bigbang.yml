@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "BIGBANG"
-songs_num: 3
+songs_num: 4
 members_num: 5
 members:
   1: "G.Dragon"
@@ -37,3 +37,12 @@ song_3:
   Taeyang: 29
   Daesung: 16
   Seungri: 17
+
+song_4:
+  id: 4
+  title: "If You"
+  G.Dragon: 47
+  T.O.P: 11
+  Taeyang: 17
+  Daesung: 14
+  Seungri: 11

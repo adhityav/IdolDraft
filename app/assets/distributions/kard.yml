@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "K.A.R.D"
-songs_num: 3
+songs_num: 4
 members_num: 4
 members:
   1: "JSeph"
@@ -25,7 +25,7 @@ song_2:
   BM: 28
   Somin: 27
   Jiwoo: 26
-  
+
 song_3:
   id: 3
   title: "Rumor"
@@ -33,3 +33,11 @@ song_3:
   BM: 29
   Somin: 24
   Jiwoo: 19
+
+song_4:
+  id: 4
+  title: "You In Me"
+  JSeph: 21
+  BM: 20
+  Somin: 28
+  Jiwoo: 31

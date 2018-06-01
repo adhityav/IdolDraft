@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "iKON"
-songs_num: 3
+songs_num: 4
 members_num: 7
 members:
   1: "B.I"
@@ -45,3 +45,14 @@ song_3:
   DK: 9
   Ju-ne: 33
   Chan: 6
+
+song_4:
+  id: 4
+  title: "My Type"
+  B.I: 44
+  Jay: 5
+  Song: 4
+  Bobby: 29
+  DK: 5
+  Ju-ne: 9
+  Chan: 5
