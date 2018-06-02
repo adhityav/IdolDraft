@@ -13,8 +13,13 @@
       <th>Score</th>
     </tr>
     <tr>
-      <font size="4"> <%= file["song_#{i}"]['title'] %> </font>
+      <font size="4"><%= file["song_#{i}"]['title'] %></font>
       <font size="2"> by <%= file['group_name'] %> </font>
+      &nbsp; <%= link_to "", file["song_#{i}"]['MV'], target: "_blank", class: "btn btn-xs btn-link glyphicon glyphicon-play" %>
+      <%= link_to "", file["song_#{i}"]['CC'], target: "_blank", class: "btn btn-xs btn-link glyphicon glyphicon-subtitles" %>
+      </br>
+      </br>
+
       <% for j in 1..file['members_num'] %>
       <tr>
         <% name = file['members'][j] %>

@@ -21,6 +21,8 @@ song_1:
   Ravi: 21
   Hongbin: 16
   Hyuk: 15
+  MV: "https://www.youtube.com/watch?v=d0C6EktpC20"
+  CC: "https://www.youtube.com/watch?v=q_lcQ-VswRI"
 
 song_2:
   id: 2
@@ -31,6 +33,8 @@ song_2:
   Ravi: 17
   Hongbin: 6
   Hyuk: 9
+  MV: https://www.youtube.com/watch?v=MOG7BexjPjM
+  CC: https://www.youtube.com/watch?v=kOesitFF5-Y
 
 song_3:
   id: 3
@@ -41,6 +45,8 @@ song_3:
   Ravi: 20
   Hongbin: 13
   Hyuk: 11
+  MV: https://www.youtube.com/watch?v=vqzBrI76e4g
+  CC: "https://www.youtube.com/watch?v=pMkIfldadUc"
 
 song_4:
   id: 4
@@ -51,6 +57,8 @@ song_4:
   Ravi: 10
   Hongbin: 7
   Hyuk: 13
+  MV: https://www.youtube.com/watch?v=CYEaI5y7QaM
+  CC: https://www.youtube.com/watch?v=nNoPRl3Rs4M
 
 song_5:
   id: 5
@@ -61,3 +69,5 @@ song_5:
   Ravi: 10
   Hongbin: 6
   Hyuk: 10
+  MV: https://www.youtube.com/watch?v=IF8kySIcWNw
+  CC: https://www.youtube.com/watch?v=_rbnVdy4WIk
