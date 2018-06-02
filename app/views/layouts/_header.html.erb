@@ -1,11 +1,33 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container">
-    <%= link_to "IdolDraft", root_path, id: "logo" %>
-    <nav>
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Idol Rankings", draft_list_path %></li>
-        <li><%= link_to "Line Distributions", line_distributions_path %></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+<nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <%= link_to image_tag("https://user-images.githubusercontent.com/13984734/40529732-03c4d63a-5fab-11e8-9779-5bfa416efb0d.png"),
+                                  root_path, id: "logo", class: "navbar-brand" %>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Idol Rankings", draft_list_path %></button>
+            <li><%= link_to "Line Distributions", line_distributions_path %></button>
+          </ul>
+        </div>
+      </div>
+</nav>
+
+<style type="text/css">
+.navbar-brand>img {
+   max-height: 200%;
+   height: 100%;
+   width: auto;
+   margin: 0 auto;
+
+   /* probably not needed anymore, but doesn't hurt */
+   -o-object-fit: contain;
+   object-fit: contain;
+}
+</style>

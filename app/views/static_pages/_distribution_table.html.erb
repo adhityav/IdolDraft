@@ -13,10 +13,10 @@
       <th>Score</th>
     </tr>
     <tr>
-      <font size="4"><%= file["song_#{i}"]['title'] %></font>
-      <font size="2"> by <%= file['group_name'] %> </font>
-      &nbsp; <%= link_to "", file["song_#{i}"]['MV'], target: "_blank", class: "btn btn-xs btn-link glyphicon glyphicon-play" %>
-      <%= link_to "", file["song_#{i}"]['CC'], target: "_blank", class: "btn btn-xs btn-link glyphicon glyphicon-subtitles" %>
+      <i><font size="5"><%= file["song_#{i}"]['title'] %></font></i>
+      <font size="5"> - <%= file['group_name'] %> </font>
+      &nbsp; <%= link_to "", file["song_#{i}"]['MV'], target: "_blank", class: "btn btn-sm btn-link glyphicon glyphicon-play" %>
+      <%= link_to "", file["song_#{i}"]['CC'], target: "_blank", class: "btn btn-sm btn-link glyphicon glyphicon-subtitles" %>
       </br>
       </br>
 
