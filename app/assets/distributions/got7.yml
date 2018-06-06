@@ -23,6 +23,8 @@ song_1:
   Youngjae: 14
   BamBam: 7
   Yugyeom: 11
+  MV: "https://www.youtube.com/watch?v=Q4vFviZ4qw0"
+  CC: "https://www.youtube.com/watch?v=jQ7AlnE18pQ"
 
 song_2:
   id: 2
@@ -34,6 +36,8 @@ song_2:
   Youngjae: 27
   BamBam: 8
   Yugyeom: 12
+  MV: "https://www.youtube.com/watch?v=T0iPB_JyS5g"
+  CC: "https://www.youtube.com/watch?v=sj7QQmnw9KY"
 
 song_3:
   id: 3
@@ -45,6 +49,8 @@ song_3:
   Youngjae: 16
   BamBam: 12
   Yugyeom: 12
+  MV: "https://www.youtube.com/watch?v=O57jr1oZDIw"
+  CC: "https://www.youtube.com/watch?v=fgOANKPXWIQ"
 
 song_4:
   id: 4
@@ -56,6 +62,8 @@ song_4:
   Youngjae: 22
   BamBam: 12
   Yugyeom: 8
+  MV: "https://www.youtube.com/watch?v=vrdk3IGcau8"
+  CC: "https://www.youtube.com/watch?v=F5iDHYTL2CQ"
 
 song_5:
   id: 5
@@ -67,3 +75,5 @@ song_5:
   Youngjae: 24
   BamBam: 10
   Yugyeom: 13
+  MV: "https://www.youtube.com/watch?v=IZ1t7CwfvEc"
+  CC: "https://www.youtube.com/watch?v=6R5mIRKAl0A"

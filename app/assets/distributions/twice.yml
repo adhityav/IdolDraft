@@ -27,6 +27,8 @@ song_1:
   Dahyun: 3
   Chaeyoung: 3
   Tzuyu: 6
+  MV: "https://www.youtube.com/watch?v=0rtV5esQT6I"
+  CC: "https://www.youtube.com/watch?v=8BgIHJvTeCU"
 
 song_2:
   id: 2
@@ -40,6 +42,8 @@ song_2:
   Dahyun: 6
   Chaeyoung: 9
   Tzuyu: 5
+  MV: "https://www.youtube.com/watch?v=8A2t_tAjMz8"
+  CC: "https://www.youtube.com/watch?v=omqybec0sTA"
 
 song_3:
   id: 3
@@ -53,6 +57,8 @@ song_3:
   Dahyun: 6
   Chaeyoung: 6
   Tzuyu: 7
+  MV: "https://www.youtube.com/watch?v=c7rCyll5AeY"
+  CC: "https://www.youtube.com/watch?v=uPm7ZTNAZ0c"
 
 song_4:
   id: 4
@@ -66,6 +72,8 @@ song_4:
   Dahyun: 10
   Chaeyoung: 6
   Tzuyu: 6
+  MV: "https://www.youtube.com/watch?v=ePpPVE-GGJw"
+  CC: "https://www.youtube.com/watch?v=J9b7gveF_tQ"
 
 song_5:
   id: 5
@@ -79,3 +87,5 @@ song_5:
   Dahyun: 2
   Chaeyoung: 5
   Tzuyu: 1
+  MV: ""
+  CC: "https://www.youtube.com/watch?v=RiTS5LcLubQ"

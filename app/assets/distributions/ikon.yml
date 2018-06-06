@@ -23,6 +23,8 @@ song_1:
   DK: 6
   Ju-ne: 14
   Chan: 0
+  MV: "https://www.youtube.com/watch?v=tYI5CriE6XU"
+  CC: "https://www.youtube.com/watch?v=dSM0WLA3STc"
 
 song_2:
   id: 2
@@ -34,6 +36,8 @@ song_2:
   DK: 4
   Ju-ne: 13
   Chan: 9
+  MV: "https://www.youtube.com/watch?v=GUFw8wTzF_I"
+  CC: "https://www.youtube.com/watch?v=o9CkRcJ2h3c"
 
 song_3:
   id: 3
@@ -45,6 +49,8 @@ song_3:
   DK: 9
   Ju-ne: 33
   Chan: 6
+  MV: "https://www.youtube.com/watch?v=blSCDrx0CDA"
+  CC: "https://www.youtube.com/watch?v=h70lzKrh-Mg"
 
 song_4:
   id: 4
@@ -56,6 +62,8 @@ song_4:
   DK: 5
   Ju-ne: 9
   Chan: 5
+  MV: "https://www.youtube.com/watch?v=ZS6vfv4sszg"
+  CC: "https://www.youtube.com/watch?v=hth1VQNPtj0"
 
 song_5:
   id: 5
@@ -67,3 +75,5 @@ song_5:
   DK: 8
   Ju-ne: 28
   Chan: 8
+  MV: "https://www.youtube.com/watch?v=hth1VQNPtj0"
+  CC: "https://www.youtube.com/watch?v=tTeHyEGL-m4"

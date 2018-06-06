@@ -17,6 +17,8 @@ song_1:
   Jennie: 22
   Rose: 30
   Lisa: 24
+  MV: "https://www.youtube.com/watch?v=bwmSjveL3Lc"
+  CC: "https://www.youtube.com/watch?v=PjRxsQ3mQkM"
 
 song_2:
   id: 2
@@ -25,6 +27,8 @@ song_2:
   Jennie: 38
   Rose: 18
   Lisa: 24
+  MV: "https://www.youtube.com/watch?v=dISNgvVpWlo"
+  CC: "https://www.youtube.com/watch?v=cXzOIfcIVAU"
 
 song_3:
   id: 3
@@ -33,6 +37,8 @@ song_3:
   Jennie: 26
   Rose: 24
   Lisa: 31
+  MV: "https://www.youtube.com/watch?v=9pdj4iJD08s"
+  CC: "https://www.youtube.com/watch?v=3UxWxfGD614"
 
 song_4:
   id: 4
@@ -41,6 +47,8 @@ song_4:
   Jennie: 29
   Rose: 25
   Lisa: 31
+  MV: "https://www.youtube.com/watch?v=Amq-qlqbjYA"
+  CC: "https://www.youtube.com/watch?v=OYiH3t5tZgo"
 
 song_5:
   id: 5
@@ -49,3 +57,5 @@ song_5:
   Jennie: 28
   Rose: 37
   Lisa: 12
+  MV: "https://www.youtube.com/watch?v=FzVR_fymZw4"
+  CC: "https://www.youtube.com/watch?v=KxPI4yrpoP4"

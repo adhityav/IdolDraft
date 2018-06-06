@@ -17,6 +17,8 @@ song_1:
   BM: 16
   Somin: 39
   Jiwoo: 29
+  MV: "https://www.youtube.com/watch?v=41Dp7Q-SM1Y"
+  CC: "https://www.youtube.com/watch?v=MOOH8h8EHVY"
 
 song_2:
   id: 2
@@ -25,6 +27,8 @@ song_2:
   BM: 28
   Somin: 27
   Jiwoo: 26
+  MV: "https://www.youtube.com/watch?v=USx4WyrkfU4"
+  CC: "https://www.youtube.com/watch?v=1lLCdCPcDSQ"
 
 song_3:
   id: 3
@@ -33,6 +37,8 @@ song_3:
   BM: 29
   Somin: 24
   Jiwoo: 19
+  MV: "https://www.youtube.com/watch?v=8LPjJ1p4dYs"
+  CC: "https://www.youtube.com/watch?v=Xv2TNd0A33o"
 
 song_4:
   id: 4
@@ -41,6 +47,8 @@ song_4:
   BM: 20
   Somin: 28
   Jiwoo: 31
+  MV: "https://www.youtube.com/watch?v=t1aGbpn-NUI"
+  CC: "https://www.youtube.com/watch?v=nJxvHwyom7A"
 
 song_5:
   id: 5
@@ -49,3 +57,5 @@ song_5:
   BM: 19
   Somin: 31
   Jiwoo: 32
+  MV: ""
+  CC: "https://www.youtube.com/watch?v=DdWAZcG23mk"

@@ -23,6 +23,8 @@ song_1:
   Hyungwon: 7
   Jooheon: 11
   I.M: 24
+  MV: "https://www.youtube.com/watch?v=FZ9lJ5ctd0s"
+  CC: "https://www.youtube.com/watch?v=jzYU7nCNR4c"
 
 song_2:
   id: 2
@@ -34,6 +36,8 @@ song_2:
   Hyungwon: 7
   Jooheon: 16
   I.M: 14
+  MV: "https://www.youtube.com/watch?v=r1afdZk0qcI"
+  CC: "https://www.youtube.com/watch?v=GX17IwG0qcc"
 
 song_3:
   id: 3
@@ -45,6 +49,8 @@ song_3:
   Hyungwon: 13
   Jooheon: 19
   I.M: 11
+  MV: "https://www.youtube.com/watch?v=f5Zedh_5DDM"
+  CC: "https://www.youtube.com/watch?v=GZ_5pRMotH8"
 
 song_4:
   id: 4
@@ -56,6 +62,8 @@ song_4:
   Hyungwon: 8
   Jooheon: 13
   I.M: 13
+  MV: "https://www.youtube.com/watch?v=wNxPGbk-gwA"
+  CC: "https://www.youtube.com/watch?v=7xXtP2Dp_OQ"
 
 song_5:
   id: 5
@@ -67,3 +75,5 @@ song_5:
   Hyungwon: 4
   Jooheon: 52
   I.M: 15
+  MV: "https://www.youtube.com/watch?v=WLeFYKDtw1I"
+  CC: "https://www.youtube.com/watch?v=1HoRKzaR53Q"

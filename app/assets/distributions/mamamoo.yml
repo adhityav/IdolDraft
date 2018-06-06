@@ -17,6 +17,8 @@ song_1:
   Moonbyul: 12
   Wheein: 33
   Hwasa: 25
+  MV: "https://www.youtube.com/watch?v=y2OFPvYxZuY"
+  CC: "https://www.youtube.com/watch?v=oQwVTjInNaw"
 
 song_2:
   id: 2
@@ -25,6 +27,8 @@ song_2:
   Moonbyul: 7
   Wheein: 37
   Hwasa: 21
+  MV: "https://www.youtube.com/watch?v=52BTemy1Yiw"
+  CC: "https://www.youtube.com/watch?v=Dzog19gc_Aw"
 
 song_3:
   id: 3
@@ -33,6 +37,8 @@ song_3:
   Moonbyul: 22
   Wheein: 20
   Hwasa: 23
+  MV: "https://www.youtube.com/watch?v=3IIBVnn4eTM"
+  CC: "https://www.youtube.com/watch?v=z12KN5uvT8Q"
 
 song_4:
   id: 4
@@ -41,6 +47,8 @@ song_4:
   Moonbyul: 23
   Wheein: 34
   Hwasa: 29
+  MV: "https://www.youtube.com/watch?v=h41Rrk_6rzs"
+  CC: "https://www.youtube.com/watch?v=aiXia5Zj7HM"
 
 song_5:
   id: 5
@@ -49,3 +57,5 @@ song_5:
   Moonbyul: 10
   Wheein: 26
   Hwasa: 29
+  MV: "https://www.youtube.com/watch?v=QbhmTM1cRro"
+  CC: "https://www.youtube.com/watch?v=fndAopiywuE"

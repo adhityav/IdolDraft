@@ -22,7 +22,7 @@ song_1:
   id: 1
   title: "Monster"
   Suho: 9
-  Xiumin: 10 
+  Xiumin: 10
   Lay: 4
   Baekhyun: 19
   Chen: 17
@@ -33,6 +33,8 @@ song_1:
   Kris: 0
   Tao: 0
   Luhan: 0
+  MV: "https://www.youtube.com/watch?v=KSH-FVVtTf0"
+  CC: "https://www.youtube.com/watch?v=VatHIJh4O0M"
 
 song_2:
   id: 2
@@ -45,16 +47,18 @@ song_2:
   Chanyeol: 13
   D.O: 14
   Kai: 9
-  Sehun: 6 
+  Sehun: 6
   Kris: 0
   Tao: 0
   Luhan: 0
-    
+  MV: "https://www.youtube.com/watch?v=IdssuxDdqKk"
+  CC: "https://www.youtube.com/watch?v=hAbBlDNuPJc"
+
 song_3:
   id: 3
   title: "History"
   Suho: 12
-  Xiumin: 7 
+  Xiumin: 7
   Lay: 9
   Baekhyun: 21
   Chen: 28
@@ -65,23 +69,27 @@ song_3:
   Kris: 20
   Tao: 17
   Luhan: 19
+  MV: "https://www.youtube.com/watch?v=vdejiaoEhFc"
+  CC: "https://www.youtube.com/watch?v=LUOcPt-QMA0"
 
 song_4:
   id: 4
   title: "Growl"
   Suho: 9
-  Xiumin: 5 
+  Xiumin: 5
   Lay: 3
   Baekhyun: 12
   Chen: 17
   Chanyeol: 7
   D.O: 13
   Kai: 7
-  Sehun: 4 
+  Sehun: 4
   Kris: 5
   Tao: 6
   Luhan: 11
-    
+  MV: "https://www.youtube.com/watch?v=I3dezFzsNss"
+  CC: "https://www.youtube.com/watch?v=RCUekU-jR5o"
+
 song_5:
   id: 5
   title: "Love Me Right"
@@ -97,3 +105,5 @@ song_5:
   Kris: 0
   Tao: 0
   Luhan: 0
+  MV: "https://www.youtube.com/watch?v=RuqaVryDRd0"
+  CC: "https://www.youtube.com/watch?v=8RxOPCAlS-I"

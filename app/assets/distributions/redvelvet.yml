@@ -19,6 +19,8 @@ song_1:
   Wendy: 27
   Joy: 13
   Yeri: 14
+  MV: "https://www.youtube.com/watch?v=J0h8-OTC38I"
+  CC: "https://www.youtube.com/watch?v=LGeD9cN7ndA"
 
 song_2:
   id: 2
@@ -28,6 +30,8 @@ song_2:
   Wendy: 20
   Joy: 22
   Yeri: 19
+  MV: "https://www.youtube.com/watch?v=QslJYDX3o8s"
+  CC: "https://www.youtube.com/watch?v=qJQ6ev5LQ6A"
 
 song_3:
   id: 3
@@ -37,6 +41,8 @@ song_3:
   Wendy: 22
   Joy: 25
   Yeri: 13
+  MV: "https://www.youtube.com/watch?v=XGdbaEDVWp0"
+  CC: "https://www.youtube.com/watch?v=5MIbgD5iMXg"
 
 song_4:
   id: 4
@@ -46,6 +52,8 @@ song_4:
   Wendy: 17
   Joy: 31
   Yeri: 8
+  MV: "https://www.youtube.com/watch?v=glXgSSOKlls"
+  CC: "https://www.youtube.com/watch?v=nV6g2SPRq1w"
 
 song_5:
   id: 5
@@ -55,3 +63,5 @@ song_5:
   Wendy: 47
   Joy: 19
   Yeri: 5
+  MV: "https://www.youtube.com/watch?v=9xWiro_tS1k"
+  CC: "https://www.youtube.com/watch?v=aWCsU-io-gk"

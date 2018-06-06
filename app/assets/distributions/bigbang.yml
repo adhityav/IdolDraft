@@ -19,6 +19,8 @@ song_1:
   Taeyang: 17
   Daesung: 8
   Seungri: 8
+  MV: "https://www.youtube.com/watch?v=AAbokV76tkU"
+  CC: "https://www.youtube.com/watch?v=j1XRCmtwuuU"
 
 song_2:
   id: 2
@@ -28,6 +30,8 @@ song_2:
   Taeyang: 44
   Daesung: 19
   Seungri: 0
+  MV: "https://www.youtube.com/watch?v=1CTced9CMMk"
+  CC: "https://www.youtube.com/watch?v=O6T7hTSuh0M"
 
 song_3:
   id: 3
@@ -37,6 +41,8 @@ song_3:
   Taeyang: 29
   Daesung: 16
   Seungri: 17
+  MV: "https://www.youtube.com/watch?v=--zku6TB5NY"
+  CC: "https://www.youtube.com/watch?v=opFEprhF0NA"
 
 song_4:
   id: 4
@@ -46,6 +52,8 @@ song_4:
   Taeyang: 17
   Daesung: 14
   Seungri: 11
+  MV: ""
+  CC: "https://www.youtube.com/watch?v=hkStCKeLlec"
 
 song_5:
   id: 5
@@ -55,3 +63,5 @@ song_5:
   Taeyang: 18
   Daesung: 18
   Seungri: 18
+  MV: "https://www.youtube.com/watch?v=TKD03uPVD-Q"
+  CC: "https://www.youtube.com/watch?v=YBp-0d74q20"
