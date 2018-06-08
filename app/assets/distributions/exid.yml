@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "EXID"
-songs_num: 5
+songs_num: 6
 members_num: 5
 members:
   1: "Solji"
@@ -65,3 +65,14 @@ song_5:
   Jeonghwa: 12
   MV: "https://www.youtube.com/watch?v=RnDSODY7bVE"
   CC: "https://www.youtube.com/watch?v=QP62Tch8TS4"
+
+song_6:
+  id: 6
+  title: "DDD"
+  Solji: 26
+  LE: 21
+  Hani: 18
+  Hyerin: 18
+  Jeonghwa: 15
+  MV: "https://www.youtube.com/watch?v=axVvZrDz60k"
+  CC: "https://www.youtube.com/watch?v=ayxEbc6uEp0"

@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "BIGBANG"
-songs_num: 5
+songs_num: 6
 members_num: 5
 members:
   1: "G.Dragon"
@@ -65,3 +65,14 @@ song_5:
   Seungri: 18
   MV: "https://www.youtube.com/watch?v=TKD03uPVD-Q"
   CC: "https://www.youtube.com/watch?v=YBp-0d74q20"
+
+song_6:
+  id: 6
+  title: "Bang Bang Bang"
+  G.Dragon: 38
+  T.O.P: 29
+  Taeyang: 17
+  Daesung: 10
+  Seungri: 8
+  MV: "https://www.youtube.com/watch?v=2ips2mM7Zqw"
+  CC: "https://www.youtube.com/watch?v=UwbGi2nGFQg"

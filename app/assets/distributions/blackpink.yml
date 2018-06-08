@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "BLACKPINK"
-songs_num: 5
+songs_num: 6
 members_num: 4
 members:
   1: "Jisoo"
@@ -59,3 +59,13 @@ song_5:
   Lisa: 12
   MV: "https://www.youtube.com/watch?v=FzVR_fymZw4"
   CC: "https://www.youtube.com/watch?v=KxPI4yrpoP4"
+
+song_6:
+  id: 6
+  title: "So Hot"
+  Jisoo: 16
+  Jennie: 27
+  Rose: 32
+  Lisa: 25
+  MV: "https://www.youtube.com/watch?v=skIfzl96Gc0"
+  CC: "https://www.youtube.com/watch?v=ibBW9Tml95A"

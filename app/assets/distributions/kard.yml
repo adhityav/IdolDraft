@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "K.A.R.D"
-songs_num: 5
+songs_num: 6
 members_num: 4
 members:
   1: "JSeph"
@@ -59,3 +59,13 @@ song_5:
   Jiwoo: 32
   MV: ""
   CC: "https://www.youtube.com/watch?v=DdWAZcG23mk"
+
+song_6:
+  id: 6
+  title: "On NaNa"
+  JSeph: 14
+  BM: 15
+  Somin: 36
+  Jiwoo: 36
+  MV: "https://www.youtube.com/watch?v=yPTcKSVAEvA"
+  CC: "https://www.youtube.com/watch?v=Xz5wc7Co9KY"

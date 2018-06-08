@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "2NE1"
-songs_num: 5
+songs_num: 6
 members_num: 4
 members:
   1: "CL"
@@ -59,3 +59,13 @@ song_5:
   Minzy: 20
   MV: "https://www.youtube.com/watch?v=didptMJxjpE"
   CC: "https://www.youtube.com/watch?v=TrOn2ueuYhU"
+
+song_6:
+  id: 6
+  title: "Come Back Home"
+  CL: 32
+  Bom: 20
+  Dara: 24
+  Minzy: 24
+  MV: "https://www.youtube.com/watch?v=vLbfv-AAyvQ"
+  CC: "https://www.youtube.com/watch?v=s0qPd3hct-0"

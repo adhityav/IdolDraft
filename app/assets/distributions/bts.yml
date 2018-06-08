@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "BTS"
-songs_num: 5
+songs_num: 6
 members_num: 7
 members:
   1: "RM"
@@ -77,3 +77,16 @@ song_5:
   Jungkook: 32
   MV: "https://www.youtube.com/watch?v=9DwzBICPhdM"
   CC: "https://www.youtube.com/watch?v=IQ69A8xdfHA"
+
+song_6:
+  id: 6
+  title: "Boy In Luv"
+  RM: 12
+  Jin: 15
+  Suga: 11
+  J-Hope: 7
+  Jimin: 16
+  V: 19
+  Jungkook: 21
+  MV: "https://www.youtube.com/watch?v=m8MfJg68oCs"
+  CC: "https://www.youtube.com/watch?v=RNc8IhJYNfo"

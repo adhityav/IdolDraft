@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "GOT7"
-songs_num: 5
+songs_num: 6
 members_num: 7
 members:
   1: "JB"
@@ -77,3 +77,16 @@ song_5:
   Yugyeom: 13
   MV: "https://www.youtube.com/watch?v=IZ1t7CwfvEc"
   CC: "https://www.youtube.com/watch?v=6R5mIRKAl0A"
+
+song_6:
+  id: 6
+  title: "Look"
+  JB: 15
+  Mark: 10
+  Jackson: 11
+  Jinyoung: 25
+  Youngjae: 14
+  BamBam: 10
+  Yugyeom: 16
+  MV: "https://www.youtube.com/watch?v=sS0LCjOiIhc"
+  CC: "https://www.youtube.com/watch?v=-YIEcjgyXIA"

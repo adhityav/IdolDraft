@@ -1,7 +1,7 @@
 ---
 #Group Info
 group_name: "GFriend"
-songs_num: 5
+songs_num: 6
 members_num: 6
 members:
   1: "Sowon"
@@ -71,3 +71,15 @@ song_5:
   Umji: 11
   MV: "https://www.youtube.com/watch?v=GU7icQFVzHo"
   CC: "https://www.youtube.com/watch?v=GOB38_2ZCx4"
+
+song_6:
+  id: 6
+  title: "Time for the Moon Night"
+  Sowon: 8
+  Yerin: 14
+  Eunha: 29
+  Yuju: 26
+  SinB: 11
+  Umji: 12
+  MV: "https://www.youtube.com/watch?v=_XyBa8QsVQU"
+  CC: "https://www.youtube.com/watch?v=ixB2smNciUI"
