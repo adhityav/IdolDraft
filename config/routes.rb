@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   #functional routes
   root   'static_pages#home'
   get    '/draft_list',            to: 'static_pages#draft_list'
+  get    '/group_rankings',        to: 'static_pages#group_rankings'
   get    '/line_distributions',    to: 'static_pages#line_distributions'
 
   #to be removed or changed

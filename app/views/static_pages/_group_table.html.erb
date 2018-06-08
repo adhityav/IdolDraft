@@ -1,0 +1,81 @@
+<%
+  require 'roo'
+  xlsx = Roo::Excelx.new(Rails.root.join("#{Rails.root}/app/assets/spreadsheets/Idol-Draft-Team-Ranks.xlsx"))
+%>
+
+<hr>
+<table>
+  <tr bgcolor=#bfbfbf>
+    <th>Rank</th>
+    <th>Group</th>
+    <th>Average ALDP</th>
+    <th>Average Idol Rank</th>
+    <th>Tier</th>
+    <th>Top Seed</th>    
+  </tr>
+  <tr>
+    <% i = 5 %>
+    <% while xlsx.excelx_value(i, 'B') != nil %>
+      <tr>
+        <td> <%= xlsx.excelx_value(i, 'B') %> </td>
+
+        <% if xlsx.excelx_value(i, 'C') == '2NE1' then %>
+        <td style="background-color:#ed448a;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'BIGBANG' then %>
+        <td style="background-color:#ffd644;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'BLACKPINK' then %>
+        <td style="background-color:#ffbaf5;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'BTS' then %>
+        <td style="background-color:#a599a8;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'EXID' then %>
+        <td style="background-color:#F1E6B2;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'EXO' then %>
+        <td style="background-color:#c8cace;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'GFriend' then %>
+        <td style="background-color:#53b2ac;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'GOT7' then %>
+        <td style="background-color:#66ed5c;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'iKon' then %>
+        <td style="background-color:#ef5f43;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'K.A.R.D' then %>
+        <td style="background-color:#d14f4f;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'MAMAMOO' then %>
+        <td style="background-color:#a6ff96;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'MONSTA X' then %>
+        <td style="background-color:#c438a8;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'Red Velvet' then %>
+        <td style="background-color:#ffa096;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'TWICE' then %>
+        <td style="background-color:#f76ce0;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'VIXX' then %>
+        <td style="background-color:#4475dd;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% elsif xlsx.excelx_value(i, 'C') == 'WINNER' then %>
+        <td style="background-color:#4460dd;"> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% else %>
+          <td> <%= xlsx.excelx_value(i, 'C') %> </td>
+        <% end %>  
+
+        <td> <%= sprintf('%.1f', xlsx.excelx_value(i, 'D')) %>% </td>
+        <td> <%= sprintf('%.1f', xlsx.excelx_value(i, 'E')) %> </td>
+        <td> <%= xlsx.excelx_value(i, 'F') %> </td>
+        <td> <%= xlsx.excelx_value(i, 'G') %> </td>
+
+      </tr>
+      <% i += 1 %>
+    <% end %>
+  </tr>
+</table>
+
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+  }
+</style>

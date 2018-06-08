@@ -65,6 +65,19 @@ song_4:
   MV: "https://www.youtube.com/watch?v=ZS6vfv4sszg"
   CC: "https://www.youtube.com/watch?v=hth1VQNPtj0"
 
+song_5:
+  id: 5
+  title: "#WYD"
+  B.I: 13
+  Jay: 27
+  Song: 5
+  Bobby: 11
+  DK: 8
+  Ju-ne: 28
+  Chan: 8
+  MV: "https://www.youtube.com/watch?v=hth1VQNPtj0"
+  CC: "https://www.youtube.com/watch?v=tTeHyEGL-m4"
+
 song_6:
   id: 6
   title: "Love Scenario"
